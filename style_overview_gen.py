@@ -18,7 +18,7 @@ from PIL import Image, ImageDraw, ImageFont, PngImagePlugin
 
 SERVER = "127.0.0.1:8188"
 CLIENT_ID = str(uuid.uuid4())
-FIXED_SEED = 887341205
+FIXED_SEED = 754254705340088
 PROMPT_TITLE = "Prompt"
 SEED_TITLE = "Seed"
 DEFAULT_TIMEOUT = 600.0
@@ -26,12 +26,48 @@ STAMP_PNG_KEY = "StyleOverviewStamp"
 
 
 def load_prompts(path: Path) -> list[dict]:
-    """Load prompts from a JSON file."""
+    """Load prompts from a Markdown file.
+    
+    Format:
+    # Title
+    Prompt text here...
+    
+    # Another Title
+    Another prompt text...
+    """
     with path.open("r", encoding="utf-8") as handle:
-        data = json.load(handle)
-    if not isinstance(data, list):
-        raise ValueError(f"Expected a list of prompts in {path}, got {type(data).__name__}")
-    return data
+        content = handle.read()
+    
+    prompts = []
+    # Split by lines starting with #
+    lines = content.split('\n')
+    current_title = None
+    current_prompt = []
+    
+    for line in lines:
+        if line.startswith('# '):
+            # Save previous prompt if exists
+            if current_title is not None:
+                prompt_text = '\n'.join(current_prompt).strip()
+                if prompt_text:
+                    prompts.append({"title": current_title, "prompt": prompt_text})
+            # Start new prompt
+            current_title = line[2:].strip()  # Remove '# ' and strip whitespace
+            current_prompt = []
+        else:
+            if current_title is not None:
+                current_prompt.append(line)
+    
+    # Save last prompt
+    if current_title is not None:
+        prompt_text = '\n'.join(current_prompt).strip()
+        if prompt_text:
+            prompts.append({"title": current_title, "prompt": prompt_text})
+    
+    if not prompts:
+        raise ValueError(f"No prompts found in {path}")
+    
+    return prompts
 
 
 def load_workflow(path: Path) -> dict:
@@ -118,7 +154,7 @@ def create_collage(image_items: list[tuple[bytes, str]], title_text: str, output
     columns = min(max_columns, len(tiles))
     rows = math.ceil(len(tiles) / columns)
 
-    title_font = load_font(48)
+    title_font = load_font(32)
     # Measure text sizes using a temporary draw
     dummy_draw = ImageDraw.Draw(Image.new("RGB", (1, 1)))
     title_width, title_height = measure_text(dummy_draw, title_text, title_font)
@@ -461,8 +497,8 @@ def main() -> None:
     parser.add_argument(
         "--prompts-file",
         type=Path,
-        default=Path(__file__).resolve().parent / "prompts.json",
-        help="Path to the prompts.json file.",
+        default=Path(__file__).resolve().parent / "prompts.md",
+        help="Path to the prompts.md file.",
     )
     parser.add_argument(
         "--workflows-dir",

@@ -8,7 +8,7 @@
 
 ## What It Does
 
-- Loads `prompts.json` containing prompt titles and prompt text
+- Loads `prompts.md` containing prompt titles and prompt text
 - Loads workflow definitions from `workflows/*.json`
 - Applies each prompt to each workflow
 - Sends the workflows to ComfyUI for rendering
@@ -37,11 +37,18 @@ python style_overview_gen.py
 
 Optional arguments:
 
-- `--prompts-file` — path to the prompts JSON file
-- `--workflows-dir` — directory containing workflow JSON files
-- `--output-dir` — root output directory
-- `--server` — server host:port (default `127.0.0.1:8188`)
-- `--timeout` — network timeout in seconds
+- `--prompts-file` - path to the prompts Markdown file
+- `--workflows-dir` - directory containing workflow JSON files
+- `--output-dir` - root output directory
+- `--server` - server host:port (default `127.0.0.1:8188`)
+- `--timeout` - network timeout in seconds
+
+## Prompts Format
+
+The `prompts.md` file uses Markdown format with titles and prompt text. Each prompt section:
+- Starts with `#` followed by the title
+- Title and prompt text are automatically trimmed of extra whitespace
+- Text continues until the next `#` or end of file
 
 ## Output Structure
 
