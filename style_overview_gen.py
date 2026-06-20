@@ -414,7 +414,7 @@ def process_workflows(prompts: list[dict], workflows_dir: Path, output_dir: Path
                     ws = connect(timeout=timeout)
 
                 prompt_id = queue_prompt(prompt_workflow, timeout=timeout)
-                print(f"Queued workflow '{workflow_name}' prompt '{title}': prompt_id={prompt_id}")
+                print(f"Queued workflow '{workflow_name}' with prompt '{title}': prompt_id={prompt_id}")
                 images_by_node = collect_images(ws, prompt_id)
 
                 if not images_by_node:
