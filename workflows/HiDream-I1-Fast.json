@@ -1,0 +1,165 @@
+{
+  "81": {
+    "inputs": {
+      "vae_name": "ae.safetensors"
+    },
+    "class_type": "VAELoader",
+    "_meta": {
+      "title": "Load VAE"
+    }
+  },
+  "82": {
+    "inputs": {
+      "clip_name1": "clip_l_hidream.safetensors",
+      "clip_name2": "clip_g_hidream.safetensors",
+      "clip_name3": "t5xxl_fp8_e4m3fn_scaled.safetensors",
+      "clip_name4": "llama_3.1_8b_instruct_fp8_scaled.safetensors"
+    },
+    "class_type": "QuadrupleCLIPLoader",
+    "_meta": {
+      "title": "QuadrupleCLIPLoader"
+    }
+  },
+  "84": {
+    "inputs": {
+      "width": 1024,
+      "height": 1024,
+      "batch_size": 1
+    },
+    "class_type": "EmptySD3LatentImage",
+    "_meta": {
+      "title": "EmptySD3LatentImage"
+    }
+  },
+  "85": {
+    "inputs": {
+      "text": [
+        "95",
+        0
+      ],
+      "clip": [
+        "82",
+        0
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "Positive Prompt"
+    }
+  },
+  "86": {
+    "inputs": {
+      "samples": [
+        "94",
+        0
+      ],
+      "vae": [
+        "81",
+        0
+      ]
+    },
+    "class_type": "VAEDecode",
+    "_meta": {
+      "title": "VAE Decode"
+    }
+  },
+  "90": {
+    "inputs": {
+      "text": "bad ugly jpeg artifacts",
+      "clip": [
+        "82",
+        0
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "Negative Prompt"
+    }
+  },
+  "91": {
+    "inputs": {
+      "shift": 3,
+      "model": [
+        "93",
+        0
+      ]
+    },
+    "class_type": "ModelSamplingSD3",
+    "_meta": {
+      "title": "ModelSamplingSD3"
+    }
+  },
+  "93": {
+    "inputs": {
+      "unet_name": "hidream_i1_fast_fp8.safetensors",
+      "weight_dtype": "default"
+    },
+    "class_type": "UNETLoader",
+    "_meta": {
+      "title": "Load Diffusion Model"
+    }
+  },
+  "94": {
+    "inputs": {
+      "seed": [
+        "96",
+        0
+      ],
+      "steps": 16,
+      "cfg": 1,
+      "sampler_name": "lcm",
+      "scheduler": "normal",
+      "denoise": 1,
+      "model": [
+        "91",
+        0
+      ],
+      "positive": [
+        "85",
+        0
+      ],
+      "negative": [
+        "90",
+        0
+      ],
+      "latent_image": [
+        "84",
+        0
+      ]
+    },
+    "class_type": "KSampler",
+    "_meta": {
+      "title": "KSampler"
+    }
+  },
+  "95": {
+    "inputs": {
+      "value": ""
+    },
+    "class_type": "PrimitiveStringMultiline",
+    "_meta": {
+      "title": "Prompt"
+    }
+  },
+  "96": {
+    "inputs": {
+      "value": 0
+    },
+    "class_type": "PrimitiveInt",
+    "_meta": {
+      "title": "Seed"
+    }
+  },
+  "97": {
+    "inputs": {
+      "images": [
+        "86",
+        0
+      ]
+    },
+    "class_type": "SaveImageWebsocket",
+    "_meta": {
+      "title": "Save Image (Websocket)"
+    }
+  }
+}

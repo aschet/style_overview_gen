@@ -19,7 +19,7 @@
       "title": "Prompt"
     }
   },
-  "58": {
+  "59": {
     "inputs": {
       "value": 0
     },
@@ -28,7 +28,7 @@
       "title": "Seed"
     }
   },
-  "59": {
+  "60": {
     "inputs": {
       "images": [
         "34:5",
@@ -158,7 +158,7 @@
     "inputs": {
       "add_noise": true,
       "noise_seed": [
-        "58",
+        "59",
         0
       ],
       "cfg": 5,

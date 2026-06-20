@@ -1,5 +1,5 @@
 {
-  "94": {
+  "71": {
     "inputs": {
       "value": ""
     },
@@ -8,7 +8,7 @@
       "title": "Prompt"
     }
   },
-  "96": {
+  "72": {
     "inputs": {
       "value": 0
     },
@@ -17,10 +17,10 @@
       "title": "Seed"
     }
   },
-  "97": {
+  "73": {
     "inputs": {
       "images": [
-        "76:65",
+        "60:8",
         0
       ]
     },
@@ -29,46 +29,10 @@
       "title": "Save Image (Websocket)"
     }
   },
-  "76:67": {
+  "60:45": {
     "inputs": {
-      "text": [
-        "94",
-        0
-      ],
-      "clip": [
-        "76:62",
-        0
-      ]
-    },
-    "class_type": "CLIPTextEncode",
-    "_meta": {
-      "title": "CLIP Text Encode (Positive Prompt)"
-    }
-  },
-  "76:68": {
-    "inputs": {
-      "width": 1024,
-      "height": 1024,
-      "batch_size": 1
-    },
-    "class_type": "EmptySD3LatentImage",
-    "_meta": {
-      "title": "EmptySD3LatentImage"
-    }
-  },
-  "76:63": {
-    "inputs": {
-      "vae_name": "ae.safetensors"
-    },
-    "class_type": "VAELoader",
-    "_meta": {
-      "title": "Load VAE"
-    }
-  },
-  "76:62": {
-    "inputs": {
-      "clip_name": "qwen_3_4b.safetensors",
-      "type": "lumina2",
+      "clip_name": "qwen_3_06b_base.safetensors",
+      "type": "stable_diffusion",
       "device": "default"
     },
     "class_type": "CLIPLoader",
@@ -76,14 +40,23 @@
       "title": "Load CLIP"
     }
   },
-  "76:65": {
+  "60:15": {
+    "inputs": {
+      "vae_name": "qwen_image_vae.safetensors"
+    },
+    "class_type": "VAELoader",
+    "_meta": {
+      "title": "Load VAE"
+    }
+  },
+  "60:8": {
     "inputs": {
       "samples": [
-        "76:69",
+        "60:19",
         0
       ],
       "vae": [
-        "76:63",
+        "60:15",
         0
       ]
     },
@@ -92,34 +65,22 @@
       "title": "VAE Decode"
     }
   },
-  "76:70": {
+  "60:28": {
     "inputs": {
-      "shift": 3,
-      "model": [
-        "76:66",
-        0
-      ]
+      "width": 1024,
+      "height": 1024,
+      "batch_size": 1
     },
-    "class_type": "ModelSamplingAuraFlow",
+    "class_type": "EmptyLatentImage",
     "_meta": {
-      "title": "ModelSamplingAuraFlow"
+      "title": "Empty Latent Image"
     }
   },
-  "76:66": {
+  "60:12": {
     "inputs": {
-      "unet_name": "z_image_bf16.safetensors",
-      "weight_dtype": "default"
-    },
-    "class_type": "UNETLoader",
-    "_meta": {
-      "title": "Load Diffusion Model"
-    }
-  },
-  "76:71": {
-    "inputs": {
-      "text": "",
+      "text": "worst quality, low quality, score_1, score_2, score_3, blurry, jpeg artifacts, sepia",
       "clip": [
-        "76:62",
+        "60:45",
         0
       ]
     },
@@ -128,37 +89,63 @@
       "title": "CLIP Text Encode (Negative Prompt)"
     }
   },
-  "76:69": {
+  "60:19": {
     "inputs": {
       "seed": [
-        "96",
+        "72",
         0
       ],
-      "steps": 25,
+      "steps": 30,
       "cfg": 4,
-      "sampler_name": "res_multistep",
+      "sampler_name": "er_sde",
       "scheduler": "simple",
       "denoise": 1,
       "model": [
-        "76:70",
+        "60:44",
         0
       ],
       "positive": [
-        "76:67",
+        "60:11",
         0
       ],
       "negative": [
-        "76:71",
+        "60:12",
         0
       ],
       "latent_image": [
-        "76:68",
+        "60:28",
         0
       ]
     },
     "class_type": "KSampler",
     "_meta": {
       "title": "KSampler"
+    }
+  },
+  "60:11": {
+    "inputs": {
+      "text": [
+        "71",
+        0
+      ],
+      "clip": [
+        "60:45",
+        0
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP Text Encode (Positive Prompt)"
+    }
+  },
+  "60:44": {
+    "inputs": {
+      "unet_name": "anima-base-v1.0.safetensors",
+      "weight_dtype": "default"
+    },
+    "class_type": "UNETLoader",
+    "_meta": {
+      "title": "Load Diffusion Model"
     }
   }
 }
