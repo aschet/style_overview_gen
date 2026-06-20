@@ -1,0 +1,15 @@
+# Python environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Output files
+outputs/
+
+# IDE files
+.vscode/
+
+# System files
+.DS_Store

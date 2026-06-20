@@ -1,0 +1,283 @@
+{
+  "35": {
+    "inputs": {
+      "aspect_ratio": "1:1 (Square)",
+      "megapixels": 2,
+      "multiple": 8
+    },
+    "class_type": "ResolutionSelector",
+    "_meta": {
+      "title": "Resolution Selector"
+    }
+  },
+  "57": {
+    "inputs": {
+      "value": ""
+    },
+    "class_type": "PrimitiveStringMultiline",
+    "_meta": {
+      "title": "Prompt"
+    }
+  },
+  "58": {
+    "inputs": {
+      "value": 0
+    },
+    "class_type": "PrimitiveInt",
+    "_meta": {
+      "title": "Seed"
+    }
+  },
+  "59": {
+    "inputs": {
+      "images": [
+        "34:5",
+        0
+      ]
+    },
+    "class_type": "SaveImageWebsocket",
+    "_meta": {
+      "title": "Save Image (Websocket)"
+    }
+  },
+  "34:9": {
+    "inputs": {
+      "vae_name": "flux2-vae.safetensors"
+    },
+    "class_type": "VAELoader",
+    "_meta": {
+      "title": "Load VAE"
+    }
+  },
+  "34:2": {
+    "inputs": {
+      "clip_name": "gpt_oss_20b_nvfp4.safetensors",
+      "type": "lens",
+      "device": "default"
+    },
+    "class_type": "CLIPLoader",
+    "_meta": {
+      "title": "Load CLIP"
+    }
+  },
+  "34:3": {
+    "inputs": {
+      "text": [
+        "57",
+        0
+      ],
+      "clip": [
+        "34:2",
+        0
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP Text Encode (Prompt)"
+    }
+  },
+  "34:7": {
+    "inputs": {
+      "text": "",
+      "clip": [
+        "34:2",
+        0
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP Text Encode (Prompt)"
+    }
+  },
+  "34:8": {
+    "inputs": {
+      "width": [
+        "34:32",
+        1
+      ],
+      "height": [
+        "34:33",
+        1
+      ],
+      "batch_size": 1
+    },
+    "class_type": "EmptyLatentImage",
+    "_meta": {
+      "title": "Empty Latent Image"
+    }
+  },
+  "34:16": {
+    "inputs": {
+      "scheduler": "simple",
+      "steps": 20,
+      "denoise": 1,
+      "model": [
+        "34:21",
+        0
+      ]
+    },
+    "class_type": "BasicScheduler",
+    "_meta": {
+      "title": "BasicScheduler"
+    }
+  },
+  "34:18": {
+    "inputs": {
+      "sampler_name": "euler"
+    },
+    "class_type": "KSamplerSelect",
+    "_meta": {
+      "title": "KSamplerSelect"
+    }
+  },
+  "34:23": {
+    "inputs": {
+      "strength": 1,
+      "pre_cfg": false,
+      "model": [
+        "34:21",
+        0
+      ]
+    },
+    "class_type": "CFGNorm",
+    "_meta": {
+      "title": "CFGNorm"
+    }
+  },
+  "34:10": {
+    "inputs": {
+      "unet_name": "lens_bf16.safetensors",
+      "weight_dtype": "default"
+    },
+    "class_type": "UNETLoader",
+    "_meta": {
+      "title": "Load Diffusion Model"
+    }
+  },
+  "34:14": {
+    "inputs": {
+      "add_noise": true,
+      "noise_seed": [
+        "58",
+        0
+      ],
+      "cfg": 5,
+      "model": [
+        "34:23",
+        0
+      ],
+      "positive": [
+        "34:3",
+        0
+      ],
+      "negative": [
+        "34:7",
+        0
+      ],
+      "sampler": [
+        "34:18",
+        0
+      ],
+      "sigmas": [
+        "34:16",
+        0
+      ],
+      "latent_image": [
+        "34:8",
+        0
+      ]
+    },
+    "class_type": "SamplerCustom",
+    "_meta": {
+      "title": "SamplerCustom"
+    }
+  },
+  "34:5": {
+    "inputs": {
+      "samples": [
+        "34:14",
+        0
+      ],
+      "vae": [
+        "34:9",
+        0
+      ]
+    },
+    "class_type": "VAEDecode",
+    "_meta": {
+      "title": "VAE Decode"
+    }
+  },
+  "34:21": {
+    "inputs": {
+      "max_shift": 1.15,
+      "base_shift": 0.5,
+      "width": [
+        "34:32",
+        1
+      ],
+      "height": [
+        "34:33",
+        1
+      ],
+      "model": [
+        "34:10",
+        0
+      ]
+    },
+    "class_type": "ModelSamplingFlux",
+    "_meta": {
+      "title": "ModelSamplingFlux"
+    }
+  },
+  "34:32": {
+    "inputs": {
+      "expression": "a & -8",
+      "values.a": [
+        "34:30",
+        0
+      ]
+    },
+    "class_type": "ComfyMathExpression",
+    "_meta": {
+      "title": "Math Expression"
+    }
+  },
+  "34:33": {
+    "inputs": {
+      "expression": "a & -8",
+      "values.a": [
+        "34:31",
+        0
+      ]
+    },
+    "class_type": "ComfyMathExpression",
+    "_meta": {
+      "title": "Math Expression"
+    }
+  },
+  "34:31": {
+    "inputs": {
+      "value": [
+        "35",
+        1
+      ]
+    },
+    "class_type": "PrimitiveInt",
+    "_meta": {
+      "title": "Int (Height)"
+    }
+  },
+  "34:30": {
+    "inputs": {
+      "value": [
+        "35",
+        0
+      ]
+    },
+    "class_type": "PrimitiveInt",
+    "_meta": {
+      "title": "Int (Width)"
+    }
+  }
+}
