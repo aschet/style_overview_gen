@@ -29,16 +29,25 @@ def load_prompts(path: Path) -> list[dict]:
     """Load prompts from a Markdown file.
     
     Format:
+    # PREFIX
+    Common prefix text added to all prompts (optional)
+    
     # Title
     Prompt text here...
     
     # Another Title
     Another prompt text...
+    
+    # POSTFIX
+    Common postfix text added to all prompts (optional)
     """
     with path.open("r", encoding="utf-8") as handle:
         content = handle.read()
     
     prompts = []
+    prefix_text = ""
+    postfix_text = ""
+    
     # Split by lines starting with #
     lines = content.split('\n')
     current_title = None
@@ -50,7 +59,12 @@ def load_prompts(path: Path) -> list[dict]:
             if current_title is not None:
                 prompt_text = '\n'.join(current_prompt).strip()
                 if prompt_text:
-                    prompts.append({"title": current_title, "prompt": prompt_text})
+                    if current_title.upper() == "PREFIX":
+                        prefix_text = prompt_text
+                    elif current_title.upper() == "POSTFIX":
+                        postfix_text = prompt_text
+                    else:
+                        prompts.append({"title": current_title, "prompt": prompt_text})
             # Start new prompt
             current_title = line[2:].strip()  # Remove '# ' and strip whitespace
             current_prompt = []
@@ -62,10 +76,24 @@ def load_prompts(path: Path) -> list[dict]:
     if current_title is not None:
         prompt_text = '\n'.join(current_prompt).strip()
         if prompt_text:
-            prompts.append({"title": current_title, "prompt": prompt_text})
+            if current_title.upper() == "PREFIX":
+                prefix_text = prompt_text
+            elif current_title.upper() == "POSTFIX":
+                postfix_text = prompt_text
+            else:
+                prompts.append({"title": current_title, "prompt": prompt_text})
     
     if not prompts:
         raise ValueError(f"No prompts found in {path}")
+    
+    # Apply prefix and postfix to all prompts
+    for prompt in prompts:
+        full_prompt = prompt["prompt"]
+        if prefix_text:
+            full_prompt = prefix_text + "\n\n" + full_prompt
+        if postfix_text:
+            full_prompt = full_prompt + "\n\n" + postfix_text
+        prompt["prompt"] = full_prompt
     
     return prompts
 

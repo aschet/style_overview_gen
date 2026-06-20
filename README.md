@@ -45,10 +45,28 @@ Optional arguments:
 
 ## Prompts Format
 
-The `prompts.md` file uses Markdown format with titles and prompt text. Each prompt section:
-- Starts with `#` followed by the title
-- Title and prompt text are automatically trimmed of extra whitespace
-- Text continues until the next `#` or end of file
+The `prompts.md` file uses Markdown format. Format:
+
+```markdown
+# PREFIX
+Common text prefixed to all prompts (optional)
+
+# Title 1
+Prompt text for style 1...
+
+# Title 2
+Prompt text for style 2...
+
+# POSTFIX
+Common text appended to all prompts (optional)
+```
+
+Special sections:
+- `# PREFIX` — Optional text automatically prepended to every prompt
+- `# POSTFIX` — Optional text automatically appended to every prompt
+- Other sections — Each becomes a prompt with the heading as the title
+
+Title and prompt text are automatically trimmed of leading/trailing whitespace.
 
 ## Output Structure
 
