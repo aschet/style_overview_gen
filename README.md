@@ -45,10 +45,10 @@ Optional arguments:
 
 ## Output Structure
 
-- raw PNG outputs are written to `outputs/<workflow_name>/`
-- PNG filenames include workflow name, prompt index, and sanitized prompt title
-- a model overview is saved as `outputs/Model_<workflow_name>.jpg`
-- a prompt overview is saved as `outputs/Prompt_<prompt_title>.jpg`
+- PNG outputs are written to `outputs/<workflow_name>/`
+- PNG filenames include workflow name and prompt title
+- A model overview is saved as `outputs/Workflow_<workflow_name>.jpg`
+- A prompt overview is saved as `outputs/Prompt_<prompt_title>.jpg`
 
 ## Workflow Preperation
 
