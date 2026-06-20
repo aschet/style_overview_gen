@@ -1770,7 +1770,7 @@
             },
             "widgets_values": [
               "{\n  \"Quality\": {\n    \"num_steps\": 48,\n    \"mu\": 0.0,\n    \"std\": 1.5,\n    \"preset_id\": \"V4_QUALITY_48\"\n  },\n  \"Default\": {\n    \"num_steps\": 20,\n    \"mu\": 0.0,\n    \"std\": 1.75,\n    \"preset_id\": \"V4_DEFAULT_20\"\n  },\n  \"Turbo\": {\n    \"num_steps\": 12,\n    \"mu\": 0.5,\n    \"std\": 1.75,\n    \"preset_id\": \"V4_TURBO_12\"\n  }\n}",
-              "Default"
+              "Quality"
             ]
           },
           {
@@ -2169,8 +2169,8 @@
               "ver": "0.23.0"
             },
             "widgets_values": [
-              "Default",
-              1,
+              "Quality",
+              0,
               "Quality",
               "Default",
               "Turbo",
@@ -3798,7 +3798,7 @@
       "scale": 0.4489702063106809,
       "offset": [
         -4574.294360713921,
-        317.9728443452137
+        315.74552505777746
       ]
     }
   },
