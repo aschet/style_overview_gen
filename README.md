@@ -1,6 +1,6 @@
 # style_overview_gen
 
-`style_overview_gen` submits ComfyUI workflows to a running ComfyUI-compatible server, renders each workflow with a set of prompts, and builds overview images.
+`style_overview_gen` submits ComfyUI workflows to a running ComfyUI-compatible server, renders each workflow with a set of prompts, and builds overview collages.
 
 <p align="center">
   <img src="/example.jpg?raw=true">
