@@ -356,7 +356,7 @@ def process_workflows(prompts: list[dict], workflows_dir: Path, output_dir: Path
         for workflow_file in workflow_files:
             workflow_data = load_workflow(workflow_file)
             workflow_name = workflow_file.stem
-            final_output_path = output_dir / f"Model_{workflow_name}.jpg"
+            final_output_path = output_dir / f"Workflow_{workflow_name}.jpg"
             prompt_titles = [entry.get("title") or f"Prompt_{i+1}" for i, entry in enumerate(prompts)]
 
             # Prepare containers
@@ -378,7 +378,7 @@ def process_workflows(prompts: list[dict], workflows_dir: Path, output_dir: Path
                         stamp_hash = read_stamp_from_png(png_path)
                         if stamp_hash == desired_hash:
                             label = prompt_label_from_png(png_path, workflow_name, prompt_titles)
-                            print(f"Using cached PNG for prompt '{title}' in workflow '{workflow_name}'")
+                            print(f"Using cached PNG for prompt '{title}' for workflow '{workflow_name}'")
                             workflow_images.append((png_path.read_bytes(), label))
                             cached_titles.add(label)
                             cached_prompt_indices.add(prompt_index)
@@ -387,9 +387,9 @@ def process_workflows(prompts: list[dict], workflows_dir: Path, output_dir: Path
                         pass
 
             if len(cached_titles) >= len(prompts):
-                print(f"Regenerating Model_{workflow_name}.jpg from existing PNGs for workflow '{workflow_name}'")
+                print(f"Regenerating Workflow_{workflow_name}.jpg from existing PNGs for workflow '{workflow_name}'")
                 create_collage(workflow_images, workflow_name, final_output_path)
-                print(f"Saved model overview: {final_output_path}")
+                print(f"Saved workflow overview: {final_output_path}")
                 total += 1
                 continue
 
@@ -437,10 +437,10 @@ def process_workflows(prompts: list[dict], workflows_dir: Path, output_dir: Path
                 total += 1
 
             if not workflow_images:
-                raise RuntimeError(f"No images available to create model overview for workflow '{workflow_name}'")
+                raise RuntimeError(f"No images available to create workflow overview for workflow '{workflow_name}'")
 
             create_collage(workflow_images, workflow_name, final_output_path)
-            print(f"Saved model overview: {final_output_path}")
+            print(f"Saved workflow overview: {final_output_path}")
 
         prompt_overview_count = create_prompt_overviews(prompts, output_dir)
         if prompt_overview_count:
