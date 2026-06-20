@@ -14,7 +14,7 @@ import hashlib
 from io import BytesIO
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, PngImagePlugin
 
 SERVER = "127.0.0.1:8188"
 CLIENT_ID = str(uuid.uuid4())
@@ -22,6 +22,7 @@ FIXED_SEED = 887341205
 PROMPT_TITLE = "Prompt"
 SEED_TITLE = "Seed"
 DEFAULT_TIMEOUT = 600.0
+STAMP_PNG_KEY = "StyleOverviewStamp"
 
 
 def load_prompts(path: Path) -> list[dict]:
@@ -286,6 +287,21 @@ def compute_stamp_hash(workflow: dict, prompt: str, seed: int) -> str:
     return h.hexdigest()
 
 
+def read_stamp_from_png(png_path: Path) -> str | None:
+    try:
+        with Image.open(png_path) as img:
+            return img.info.get(STAMP_PNG_KEY)
+    except Exception:
+        return None
+
+
+def save_png_with_stamp(png_path: Path, image_data: bytes, stamp_hash: str) -> None:
+    with Image.open(BytesIO(image_data)) as img:
+        pnginfo = PngImagePlugin.PngInfo()
+        pnginfo.add_text(STAMP_PNG_KEY, stamp_hash)
+        img.save(png_path, format="PNG", pnginfo=pnginfo)
+
+
 def find_prompt_images(output_dir: Path, prompt_name: str) -> list[tuple[bytes, str]]:
     sanitized = sanitize_prompt_name(prompt_name)
     items: list[tuple[bytes, str]] = []
@@ -348,7 +364,7 @@ def process_workflows(prompts: list[dict], workflows_dir: Path, output_dir: Path
             cached_titles: set[str] = set()
             cached_prompt_indices: set[int] = set()
 
-            # For each prompt, check whether a PNG + matching .stamp exists. Only then treat as cached.
+            # For each prompt, check whether a PNG exists and contains a matching embedded stamp.
             for prompt_index, entry in enumerate(prompts, start=1):
                 title = entry.get("title")
                 prompt = entry.get("prompt")
@@ -356,18 +372,18 @@ def process_workflows(prompts: list[dict], workflows_dir: Path, output_dir: Path
                     continue
 
                 png_path = output_image_path(output_dir, workflow_name, title)
-                stamp_path = png_path.with_suffix(png_path.suffix + ".stamp")
-                if png_path.exists() and stamp_path.exists():
+                if png_path.exists():
                     try:
                         desired_hash = compute_stamp_hash(workflow_data, prompt, seed)
-                        stamp_hash = stamp_path.read_text(encoding="utf-8").strip()
+                        stamp_hash = read_stamp_from_png(png_path)
                         if stamp_hash == desired_hash:
                             label = prompt_label_from_png(png_path, workflow_name, prompt_titles)
+                            print(f"Using cached PNG for prompt '{title}' in workflow '{workflow_name}'")
                             workflow_images.append((png_path.read_bytes(), label))
                             cached_titles.add(label)
                             cached_prompt_indices.add(prompt_index)
                     except Exception:
-                        # if anything goes wrong reading stamp/hash, treat as not cached and regenerate
+                        # if anything goes wrong reading embedded stamp, treat as not cached and regenerate
                         pass
 
             if len(cached_titles) >= len(prompts):
@@ -387,9 +403,9 @@ def process_workflows(prompts: list[dict], workflows_dir: Path, output_dir: Path
                 if title is None or prompt is None:
                     continue
 
-                # Skip titles already present in cache (verified by stamp)
+                # Skip prompts already present in cache (verified by stamp)
                 if prompt_index in cached_prompt_indices:
-                    print(f"Skipping cached title '{title}' for workflow '{workflow_name}'")
+                    print(f"Skipping cached prompt '{title}' for workflow '{workflow_name}'")
                     continue
 
                 prompt_workflow = apply_prompt_to_workflow(workflow_data, prompt, seed=seed)
@@ -398,7 +414,7 @@ def process_workflows(prompts: list[dict], workflows_dir: Path, output_dir: Path
                     ws = connect(timeout=timeout)
 
                 prompt_id = queue_prompt(prompt_workflow, timeout=timeout)
-                print(f"Queued workflow '{workflow_name}' title '{title}': prompt_id={prompt_id}")
+                print(f"Queued workflow '{workflow_name}' prompt '{title}': prompt_id={prompt_id}")
                 images_by_node = collect_images(ws, prompt_id)
 
                 if not images_by_node:
@@ -415,14 +431,7 @@ def process_workflows(prompts: list[dict], workflows_dir: Path, output_dir: Path
                         node_suffix = sanitize_prompt_name(node_name or "output")
                     png_path = output_image_path(output_dir, workflow_name, title, node_suffix)
                     png_path.parent.mkdir(parents=True, exist_ok=True)
-                    with png_path.open("wb") as f:
-                        f.write(image_data)
-                    # write stamp file alongside PNG
-                    stamp_path = png_path.with_suffix(png_path.suffix + ".stamp")
-                    try:
-                        stamp_path.write_text(desired_hash, encoding="utf-8")
-                    except OSError:
-                        pass
+                    save_png_with_stamp(png_path, image_data, desired_hash)
                     print(f"Saved PNG cache: {png_path}")
 
                 total += 1
