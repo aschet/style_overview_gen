@@ -25,7 +25,7 @@ DEFAULT_TIMEOUT = 600.0
 STAMP_PNG_KEY = "StyleOverviewStamp"
 
 
-def load_prompts(path: Path) -> list[dict]:
+def load_prompts(path: Path) -> tuple[list[dict], str, str]:
     """Load prompts from a Markdown file.
     
     Format:
@@ -44,7 +44,7 @@ def load_prompts(path: Path) -> list[dict]:
     with path.open("r", encoding="utf-8") as handle:
         content = handle.read()
     
-    prompts = []
+    prompts: list[dict] = []
     prefix_text = ""
     postfix_text = ""
     
@@ -95,7 +95,22 @@ def load_prompts(path: Path) -> list[dict]:
             full_prompt = full_prompt + "\n\n" + postfix_text
         prompt["prompt"] = full_prompt
     
-    return prompts
+    return prompts, prefix_text, postfix_text
+
+
+def write_expanded_prompts_file(path: Path, prompts: list[dict], output_dir: Path) -> None:
+    output_dir.mkdir(parents=True, exist_ok=True)
+    expanded_path = output_dir / path.name
+    lines: list[str] = []
+    for prompt in prompts:
+        title = prompt.get("title")
+        prompt_text = prompt.get("prompt", "").strip()
+        if title is None or not prompt_text:
+            continue
+        lines.append(f"# {title}")
+        lines.append(prompt_text)
+        lines.append("")
+    expanded_path.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
 
 
 def load_workflow(path: Path) -> dict:
@@ -563,7 +578,10 @@ def main() -> None:
         parser.error("--timeout must be zero or a positive number")
     SERVER = args.server
 
-    prompts = load_prompts(args.prompts_file)
+    prompts, prefix_text, postfix_text = load_prompts(args.prompts_file)
+    if prefix_text or postfix_text:
+        write_expanded_prompts_file(args.prompts_file, prompts, args.output_dir)
+
     try:
         count = process_workflows(prompts, args.workflows_dir, args.output_dir, args.timeout, args.seed)
     except ConnectionError as exc:
