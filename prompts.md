@@ -1,6 +1,6 @@
 # PREFIX
 
-Composition: A waist‑up portrait of an Italian woman in her forties seated at a worn heavy wooden dining table inside a Victorian mansion, facing the viewer with a calm, neutral expression. She has a naturally deeper complexion and long black hair draped over her shoulders, and she is wearing a Victorian‑style dress made of elegant patterned fabric with a high lace collar rising up to her neck and a subtle raised woven pattern in the material. She is drinking clear apple juice from a glass while holding a wide glass bowl filled with potato chips, with the bowl resting on the table. Her face has defined eyebrows, a natural lip shape, a softly rounded jawline, and a straight nose. On the table is also a candle holder with two burning candles. Behind her, the background shows Victorian interior architecture with wooden wall paneling on the lower walls, white painted walls above, a window with decorative curtains allowing light to enter the room, a single framed picture hanging on the wall, and antique Victorian furniture visible behind her.
+Composition: A waist‑up portrait of an Italian woman in her forties seated at a worn heavy wooden dining table, long black hair over her shoulders, wearing a simple shirt with a modest high neckline, facing the viewer with a calm neutral expression, holding a wide glass bowl filled with potato chips with the bowl resting on the table, and drinking from glass of beer.
 
 # Oil Painting
 
