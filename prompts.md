@@ -1,99 +1,67 @@
 # PREFIX
 
-COMPOSITION: A waist‑up portrait of an Italian woman in her forties seated at a worn heavy wooden dining table inside a Victorian mansion, facing the viewer with a calm, neutral expression. She has a naturally deeper complexion and long black hair draped over her shoulders, and she is wearing a Victorian‑style dress made of elegant patterned fabric with a high lace collar rising up to her neck and a subtle raised woven pattern in the material. She is drinking clear apple juice from a glass while holding a wide glass bowl filled with potato chips, with the bowl resting on the table. Her face has defined eyebrows, a natural lip shape, a softly rounded jawline, and a straight nose. On the table is also a candle holder with two burning candles. Behind her, the background shows Victorian interior architecture with wooden wall paneling on the lower walls, white painted walls above, a window with decorative curtains allowing light to enter the room, a single framed picture hanging on the wall, and antique Victorian furniture visible behind her.
+Composition: A waist‑up portrait of an Italian woman in her forties seated at a worn heavy wooden dining table inside a Victorian mansion, facing the viewer with a calm, neutral expression. She has a naturally deeper complexion and long black hair draped over her shoulders, and she is wearing a Victorian‑style dress made of elegant patterned fabric with a high lace collar rising up to her neck and a subtle raised woven pattern in the material. She is drinking clear apple juice from a glass while holding a wide glass bowl filled with potato chips, with the bowl resting on the table. Her face has defined eyebrows, a natural lip shape, a softly rounded jawline, and a straight nose. On the table is also a candle holder with two burning candles. Behind her, the background shows Victorian interior architecture with wooden wall paneling on the lower walls, white painted walls above, a window with decorative curtains allowing light to enter the room, a single framed picture hanging on the wall, and antique Victorian furniture visible behind her.
 
 # Oil Painting
 
-STYLE: A darker classical oil‑painting style with heavy impasto and strong chiaroscuro, using near‑black shadows and thick raised brushstrokes. The paint is built up in layered opaque strokes with thin translucent glazes, and the directional brushwork recedes softly into shadow. Warm highlights are painted on the raised areas of the impasto, while a blue‑black and umber palette dominates the darker regions. Candlelit accents create small warm glowing halos, and fabrics and background elements use subdued structured strokes that blend smoothly into deep shadow. Liquids and reflective areas are rendered with soft amber glazes, small details are suggested with muted ochre marks, and long confident strokes define surfaces with controlled darkness, producing a dramatic low‑key image with strong atmospheric depth.
-
-ARTISTS: Rembrandt, Caravaggio
+Visual Style: Render as oil painting inspired by Rembrandt with very thick impasto paint, strong raised texture, heavy brush marks, dense layered glazing, deep chiaroscuro with large shadow areas, very small highlight areas, warm black and umber pigment, soft edges in low light, and a dark dramatic Baroque atmosphere.
 
 # Acrylic Painting
 
-STYLE: A painterly matte acrylic style with opaque layered paint, visible textured brushstrokes, and natural irregularities from fast‑drying application. Surfaces show dry‑brush texture, subtle ridges from stacked semi‑opaque layers, and a matte non‑reflective finish. Edges are firm but slightly uneven, shaped by hand‑painted strokes rather than clean digital lines. Color transitions are abrupt and built from layered patches of paint instead of smooth blending. Light and reflections appear as matte painted shapes with visible stroke direction. Backgrounds and forms are created with broad painterly strokes, muted opaque color, and natural variation in coverage. The overall look emphasizes physical paint texture, layered application, matte surfaces, and the tactile hand‑painted character of real acrylic artwork.
-
-ARTISTS: David Hockney, Gerhard Richter
+Visual Style: Render as acrylic painting inspired by Mark Rothko with matte opaque paint, firm hand painted edges, dry brush texture, stacked semi opaque layers, abrupt color shifts, broad flat strokes, and a clear painted surface with natural variation in coverage.
 
 # Gouache Painting
 
-STYLE: Traditional gouache on thick cold‑press paper with dense matte opacity, soft velvety transitions, and semi‑opaque layered color. Paint settles into the paper texture, creating a natural grain and a dry matte surface. Edges soften gently as layers overlap, forming smooth velvety shifts in tone. Strokes appear flattened and matte, with muted opaque color and subtle paper tooth visible throughout. Highlights remain soft and matte, shadows dense and velvety, and forms are shaped by overlapping opaque fields with naturally softened boundaries. The overall look is matte, velvety, layered, paper‑textured, and distinctly gouache.
-
-ARTISTS: Mary Blair, Henri Matisse
+Visual Style: Render as gouache painting inspired by Henri Matisse with strong chalky matte paint, dry powder like texture, soft blurred edges, flat opaque color, layered matte fields, visible paper grain, and a dense dry surface with simple hand painted shapes.
 
 # Watercolor Painting
 
-STYLE: Transparent watercolor with light layered washes, soft wet‑on‑wet diffusion, gentle feathered edges, and luminous pigment flow. Color remains translucent and airy, allowing the paper’s brightness to show through. Natural blooms, subtle granulation, and fluid gradients create an open atmospheric feel. Strokes stay loose and fluid, with minimal layering and high luminosity. The overall effect is light, translucent, softly blended, and distinctly watercolor.
-
-ARTISTS: J.M.W. Turner, John Singer Sargent
+Visual Style: Render as watercolor painting inspired by Emil Nolde with very coarse loose washes, rough broken pigment, strong paper texture, open unpainted areas, uneven watery coverage, drifting color patches, soft bleeding edges, and broad airy strokes that keep the image light, raw, and unmistakably watercolor.
 
 # Colored Pencil Drawing
 
-STYLE: The drawing uses colored pencils that create thick, rough strokes instead of fine lines. The marks are broad and uneven, leaving patchy areas where the paper shows through. The pigment goes down with irregular pressure, producing streaks and blunt edges. The layers are applied loosely and do not form solid fills, giving the drawing a raw and unfinished look. Colors blend only through overlapping strokes, creating simple and abrupt transitions. The edges stay wide and uneven, with visible stroke direction that reinforces the crude colored‑pencil style.
-
-ARTISTS: CJ Hendry, Marco Mazzoni
+Visual Style: Render as colored pencil drawing inspired by Jean Charlot with very coarse grain, rough broken strokes, strong paper texture, heavy uneven pressure, wide blunt marks, patchy low detail color, open gaps in coverage, and simple loose pencil lines that keep the drawing raw and clearly hand drawn.
 
 # Charcoal Drawing
 
-STYLE: The drawing is made only with black charcoal and gray charcoal dust, with no color anywhere, using thick rough strokes with a dry grainy texture that leave broad uneven marks, broken edges, and clear gaps where the paper shows through, with shapes indicated by loose simple lines and clustered marks, shading formed by smudged charcoal dust and heavy pressure strokes, and all areas kept open and unfilled so the sketch stays crude, monochrome, dusty, and unmistakably charcoal.
-
-ARTISTS: Käthe Kollwitz, Robert Longo
+Visual Style: Render as charcoal sketch like Käthe Kollwitz with very coarse grain, heavy broken strokes, rough dry texture, blunt sketch lines, strong paper tooth, smudged dark accents, wide uneven pressure, open unfinished areas, and raw black and white marks that keep the drawing loose, sketchy, and intensely charcoal.
 
 # B&W Line Art
 
-STYLE: The scene is drawn only as black‑and‑white line art using very simple broken contours that fade, skip, and leave gaps, with all shapes suggested only through loose irregular lines and no shading of any kind, with the woman’s face indicated by a few soft uneven strokes, her eyes shown as minimal incomplete curves, her long hair made from scattered tapering lines that overlap and break, her Victorian dress reduced to a few rough contour hints and minimal fold marks, the beer glass and bowl of chips shown with partial uneven curves, and the table indicated by broad imperfect lines, while the background is limited to only a few thin incomplete architectural hints, keeping the entire image extremely minimal, unshaded, uncolored, and strictly contour‑based.
-
-ARTISTS: Aubrey Beardsley, Egon Schiele
+Visual Style: Render as black and white line art inspired by Aubrey Beardsley with very coarse irregular contours, bold uneven pressure, broken hand‑drawn lines, open unfilled areas, simple minimal interior marks, rough organic outlines, and a raw sketch‑driven monochrome look.
 
 # Vector Art
 
-STYLE: The style uses simplified geometric vector art built from flat color planes, basic angular shapes, smooth controlled curves, and crisp uniform contours, with all forms reduced to essential polygons and clean silhouette blocks, minimal interior lines, consistent edge precision, and a clear flat‑color structure that keeps the overall composition extremely simple, geometric, and stylized.
-
-ARTISTS: Malika Favre, Charley Harper
+Visual Style: Render as vector art inspired by Malika Favre with clean bold shapes, flat simplified color, thick geometric contours, open negative space, minimal detail, smooth crisp edges, and strong stylized forms that stay clear, graphic, and highly abstracted.
 
 # Digital Painting
 
-STYLE: The style uses soft digital concept‑art rendering with smooth blended shading, broad value masses, atmospheric depth, and simplified detail, with forms built through layered tonal transitions rather than outlines or brush texture, maintaining controlled edges, subtle gradients, and a stylized painterly look that avoids photographic precision while keeping the surface clean and texture‑free.
-
-ARTISTS: Craig Mullins, Loish
+Visual Style: Render as digital painting inspired by Pascal Campion with broad soft strokes, smooth diffused color fields, simplified silhouettes, gentle atmospheric glow, loose minimal blending, very light texture, open negative space, and a warm expressive hand‑painted digital look that stays clean, stylized, and visually spacious.
 
 # Ink Comic Style
 
-STYLE: The style uses expressive European graphic‑novel linework with fluid, varied contours, rhythmic pressure shifts, and organic irregularities, supported by abundant dynamic ink splatters and scattered droplets that energize the composition; color is stronger and more present, appearing as bold but muted washes, layered semi‑transparent stains, and saturated accent tones that bleed slightly into the ink, creating a lively painterly‑comic fusion. Shading is built from textured tonal washes rather than heavy blacks, with soft atmospheric gradients, subtle grain, and controlled edge roughness, giving the image a vivid, hand‑crafted European feel that is colorful, splashy.
-
-ARTISTS: Moebius, Hugo Pratt
+Visual Style: Render as ink comic style inspired by David Mazzucchelli with very strong blacks, bold angular shadows, simplified shapes, clean decisive linework, restrained flat color blocks, minimal detail, and a graphic noir look built from sharp ink masses and controlled negative space.
 
 # Anime
 
-STYLE: A retro anime style with bold hand‑inked outlines, two‑to‑three‑step cel shading, soft airbrushed gradients, warm analog glow, and subtle film‑diffusion. Surfaces use bright tonal highlights and deep stylized shadow masses. Hair and shapes appear as thick cel‑painted forms with sharp reflective streaks and soft blended transitions. Eyes feature expressive retro‑anime rendering with large highlights and smooth tonal gradients. Folds and surfaces are simplified into geometric cel‑shaded planes in darker and cooler tones. Lighting uses glowing airbrushed halos, warm tonal spill, and dramatic anime‑style chiaroscuro, with backgrounds fading into soft tonal gradients and stylized darkness.
-
-ARTISTS: Hayao Miyazaki, Yoshiyuki Sadamoto
+Visual Style: Render as 1980s Ghibli inspired anime with bold hand inked outlines, soft two step cel shading, gentle airbrushed gradients, warm analog glow, subtle film diffusion, smooth rounded forms, bright highlights, soft shadow planes, clean cel painted hair shapes with reflective streaks, expressive retro anime eyes with smooth gradients, warm atmospheric lighting, and backgrounds fading into soft tonal washes and stylized darkness.
 
 # Mixed Media Collage
 
-STYLE: A mixed‑media collage style built from large torn paper shapes, oversized cutouts, rough scanned textures, marker‑like fills, ink stains, printed pattern clippings, and magazine‑like surfaces. The figure is constructed from many distinct collage components: layered paper fragments, irregular cut shapes, misaligned edges, stitched‑together patches, sketch overlays, and scattered photographic inserts that remain visibly separate. The background also uses abundant collage materials, with large cutouts, printed textures, paper layers, and open space arranged across the entire image. Surfaces rely on overlapping paper textures, translucent overlays, printed grain, and loosely spaced layers, creating a handmade, non‑photographic collage aesthetic where both figure and background are clearly assembled from varied materials.
-
-ARTISTS: Hannah Höch, Robert Rauschenberg
+Visual Style: Render as mixed media collage inspired by Hannah Höch using torn paper shapes, bold cutouts, rough scanned textures, printed fragments, marker style fills, and small photographic pieces. The figure is assembled from visibly separate collage elements with irregular edges, layered paper scraps, sketchy overlays, and mismatched materials. The background uses broad paper cutouts, printed textures, and open space, creating a handmade collage look with overlapping surfaces and translucent layers.
 
 # Graffiti
 
-STYLE: A contemporary graffiti style where the figure is fully rendered through bold spray‑paint outlines, loose overspray clouds, large simplified shapes, and high‑contrast tonal blocks. The figure is constructed from broad aerosol strokes, sharp angular contours, broken spray edges, soft diffusion halos, and minimal interior detail. Surfaces show uneven spray density, layered aerosol passes, scattered splatter texture, and visible wall‑like grain beneath the paint. The background behaves like an urban surface with faint tags, partial sprayed marks, overspray fields, and open space, creating a unified street‑art composition where both figure and environment share the same sprayed, high‑energy graffiti language.
-
-ARTISTS: Banksy, Jean‑Michel Basquiat
+Visual Style: Render as raw street graffiti inspired by Lady Pink with bold sprayed contours, saturated color fields, drifting overspray, heavy drips, soft aerosol gradients, layered mural structures, scattered tags, splatter marks, floating graphic shapes, and dense urban textures. The composition builds from overlapping sprayed forms, bright highlights, deep shadow masses, rough wall grain, and energetic spray patterns arranged in a vivid, high‑intensity graffiti layout.
 
 # Analog Color Film Photo
 
-STYLE: A color analog film aesthetic with pronounced natural film grain, soft color fading, slight underexposure, and organic imperfections. Grain is clearly visible across all tonal areas, with fine‑to‑medium texture characteristic of high‑ISO 35mm film. Forms show subtle tonal variation, warm film‑rendered color, gentle desaturation in shadows, and shallow‑depth‑of‑field softness. Light sources produce faint blooming and mild halation, while edges retain natural handheld softness. The overall look is cinematic, textured, and authentically analog, with the distinctive grain structure and color palette of heavily grained 35mm film.
-
-ARTISTS: William Eggleston, Saul Leiter
+Visual Style: Render as analog color film photo inspired by William Eggleston with pronounced film grain, warm color drift, soft highlight halation, gentle lens imperfections, muted tones, deep shadow rolloff, and subtle vignetting. Surfaces appear organic and textured, with natural color shifts, smooth bloom, and the atmospheric depth of real color negative film.
 
 # Analog B&W Film Photo
 
-STYLE: A harsh analog black‑and‑white 35mm film aesthetic defined by extremely coarse silver‑halide grain, oversized grain clumping, and aggressive high‑ISO texture dominating the entire frame. Tonal range is brutally compressed: blacks are deep and crushed, highlights are stark and blooming, and midtones collapse into gritty transitions. Motion softness, handheld instability, and shallow‑depth‑of‑field blur dissolve edges into grain. The image carries strong vignetting, chemical roughness, uneven exposure, and the raw, abrasive character of severely pushed or near‑expired B&W film.
-
-ARTISTS: Daido Moriyama, Robert Frank
+Visual Style: Render as analog black and white film photo inspired by Daido Moriyama with heavy coarse grain, deep crushed blacks, bright blown highlights, strong contrast, soft halation, muted midtones, and organic lens imperfections. Surfaces show rough film texture, dust specks, faint scratches, uneven exposure, mild vignetting, and the raw atmospheric depth of high‑ISO monochrome negative film.
 
 # CGI Render
 
-STYLE: A stylized digital CGI aesthetic with clean PBR materials, simplified forms, controlled roughness maps, and crisp ray‑traced lighting that looks intentionally synthetic rather than realistic. Surfaces have smooth digital clarity, softened micro‑detail, and slightly exaggerated material response. Lighting is cinematic but clearly rendered, with sharp ray‑traced reflections, clean volumetric effects, and non‑photographic precision. Depth‑of‑field is digitally controlled and slightly stylized, without analog softness or film artifacts. Colors are clean, stable, and digitally saturated, and geometry has subtly simplified contours. The overall look is polished, modern, and unmistakably CGI—realistic in physics but intentionally stylized, clean, and non‑photographic.
-
-ARTISTS: Beeple, Vitaly Bulgarov
+Visual Style: Render as CGI animation in the style of Pixar with intense stylized shading, powerful global illumination, vibrant saturated colors, strong volumetric light, deep cinematic contrast, polished reflections, smooth subsurface scattering, rich texture detail, and bold atmospheric depth of field.
