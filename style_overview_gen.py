@@ -423,7 +423,7 @@ def create_prompt_overviews(prompts: list[dict], output_dir: Path) -> int:
     return total
 
 
-def process_workflows(prompts: list[dict], workflows_dir: Path, output_dir: Path, timeout: float, seed: int) -> int:
+def process_workflows(prompts: list[dict], workflows_dir: Path, output_dir: Path, timeout: float, seed: int, skip_hash_verify: bool = False) -> int:
     workflow_files = sorted(workflows_dir.glob("*.json"))
     if not workflow_files:
         raise FileNotFoundError(f"No workflow JSON files found in {workflows_dir}")
@@ -453,14 +453,23 @@ def process_workflows(prompts: list[dict], workflows_dir: Path, output_dir: Path
                 png_path = output_image_path(output_dir, workflow_name, title)
                 if png_path.exists():
                     try:
-                        desired_hash = compute_stamp_hash(workflow_data, prompt, seed)
-                        stamp_hash = read_stamp_from_png(png_path)
-                        if stamp_hash == desired_hash:
+                        if skip_hash_verify:
+                            # In skip-hash mode, just use the file if it exists
                             label = prompt_label_from_png(png_path, workflow_name, prompt_titles)
-                            print(f"Using cached PNG for prompt '{title}' for workflow '{workflow_name}'")
+                            print(f"Using cached PNG for prompt '{title}' for workflow '{workflow_name}' (hash verification skipped)")
                             workflow_images.append((png_path.read_bytes(), label))
                             cached_titles.add(label)
                             cached_prompt_indices.add(prompt_index)
+                        else:
+                            # Verify hash matches before using cached file
+                            desired_hash = compute_stamp_hash(workflow_data, prompt, seed)
+                            stamp_hash = read_stamp_from_png(png_path)
+                            if stamp_hash == desired_hash:
+                                label = prompt_label_from_png(png_path, workflow_name, prompt_titles)
+                                print(f"Using cached PNG for prompt '{title}' for workflow '{workflow_name}'")
+                                workflow_images.append((png_path.read_bytes(), label))
+                                cached_titles.add(label)
+                                cached_prompt_indices.add(prompt_index)
                     except Exception:
                         # if anything goes wrong reading embedded stamp, treat as not cached and regenerate
                         pass
@@ -573,6 +582,11 @@ def main() -> None:
         default=FIXED_SEED,
         help="Seed value to use for all generated images.",
     )
+    parser.add_argument(
+        "--skip-hash-verify",
+        action="store_true",
+        help="Skip hash verification on regeneration; only check if file exists (faster for debugging).",
+    )
     args = parser.parse_args()
     if args.timeout < 0:
         parser.error("--timeout must be zero or a positive number")
@@ -583,7 +597,7 @@ def main() -> None:
         write_expanded_prompts_file(args.prompts_file, prompts, args.output_dir)
 
     try:
-        count = process_workflows(prompts, args.workflows_dir, args.output_dir, args.timeout, args.seed)
+        count = process_workflows(prompts, args.workflows_dir, args.output_dir, args.timeout, args.seed, args.skip_hash_verify)
     except ConnectionError as exc:
         print(f"ERROR: {exc}", file=sys.stderr)
         sys.exit(1)
