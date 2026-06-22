@@ -60,7 +60,7 @@ Visual Style: Render as analog color film photo inspired by William Eggleston wi
 
 # Analog B&W Film Photo
 
-Visual Style: Render as analog black and white film photo inspired by Daido Moriyama with heavy coarse grain, deep crushed blacks, bright blown highlights, strong contrast, soft halation, muted midtones, and organic lens imperfections. Surfaces show rough film texture, dust specks, faint scratches, uneven exposure, mild vignetting, and the raw atmospheric depth of high‑ISO monochrome negative film.
+Visual Style: Render as analog black and white film photo inspired by Daido Moriyama with heavy coarse grain, deep crushed blacks, bright blown highlights, strong contrast, soft halation, muted midtones, and organic lens imperfections. Surfaces show rough film texture, uneven exposure, mild vignetting, and the raw atmospheric depth of high‑ISO monochrome negative film.
 
 # CGI Render
 
