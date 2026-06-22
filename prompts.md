@@ -4,7 +4,7 @@ Composition: A waist‑up portrait of an Italian woman in her forties seated at 
 
 # Oil Painting
 
-Visual Style: Render as oil painting inspired by Rembrandt with very thick impasto paint, strong raised texture, heavy brush marks, dense layered glazing, deep chiaroscuro with large shadow areas, very small highlight areas, warm black and umber pigment, soft edges in low light, and a dark dramatic Baroque atmosphere.
+Visual Style: Render as oil painting inspired by Rembrandt with moderate impasto paint, gentle raised texture, smoother brush marks, softer glazing, balanced chiaroscuro with controlled shadow areas, restrained highlights, warm dark tones, and a subtle atmospheric depth.
 
 # Acrylic Painting
 
