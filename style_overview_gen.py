@@ -22,7 +22,7 @@ FIXED_SEED = 42
 PROMPT_TITLE = "Prompt"
 SEED_TITLE = "Seed"
 DEFAULT_TIMEOUT = 600.0
-STAMP_PNG_KEY = "StyleOverviewStamp"
+STAMP_PNG_KEY = "GenerationHash"
 
 
 def load_prompts(path: Path) -> tuple[list[dict], str, str]:
