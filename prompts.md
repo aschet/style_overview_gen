@@ -1,67 +1,67 @@
 # PREFIX
 
-Composition: A waist up portrait of an Italian woman in her forties seated at a wooden dining table, her body angled slightly toward the viewer. She has long black hair falling over her shoulders and wears a plain T-shirt. Her expression is calm and neutral as she drinks from a glass of beer. Her posture is relaxed and natural.
+Composition: A waist-up portrait of an Italian woman in her early 40s seated at a wooden dining table, body angled slightly toward the viewer. She has long black hair falling over her shoulders and wears a plain T-shirt. Her facial structure is clearly readable with simplified facial planes and balanced adult proportions. She is calmly drinking from a glass of beer. The setting is a simple indoor dining space with minimal environmental detail, keeping focus on the figure and table interaction.
 
 # Painting: Oil Paint
 
-Medium: Oil painting with visible brushstrokes, layered opaque and translucent paint, smooth blended transitions, rich pigment density, textured canvas grain, and subtle impasto creating tactile surface depth.
+Medium: Oil painting with layered pigment buildup, visible brush structure, smooth blended transitions, dense paint application, textured canvas interaction, and raised impasto forming tactile surface relief.
 
 # Painting: Watercolor
 
-Medium: Watercolor painting with transparent washes, soft bleeding edges, pigment blooms, layered color transitions, visible paper texture, and fluid diffusion between forms.
+Medium: Watercolor painting with transparent pigment washes, fluid diffusion behavior, soft edge bleeding, bloom effects, gradual tonal transitions, and visible paper fiber texture.
 
 # Painting: Gouache
 
-Medium: Gouache painting with opaque matte color, flat painted shapes, crisp edges, even coverage, minimal transparency, and subtle brushwork visible across layered surfaces.
+Medium: Gouache painting with opaque matte color fields, flat tonal regions, crisp edge separation, uniform pigment coverage, and clearly defined layered shapes with minimal transparency.
 
 # Painting: Encaustic
 
-Medium: Encaustic painting with layered translucent wax, embedded pigment, softened edges, cloudy depth, textured buildup, and irregular fused surfaces with a luminous waxy appearance.
+Medium: Encaustic painting with fused wax layers, semi-translucent pigment depth, softened contours, uneven surface buildup, embedded texture strata, and warm layered material accumulation.
 
 # Drawing: Ink
 
-Medium: Ink drawing in monochrome with crisp linework, strong black-and-white contrast, controlled line variation, visible pooling, occasional feathering, and expressive pen or brush marks.
+Medium: Ink drawing in monochrome with strong contour structure, variable line weight, controlled ink flow, pooling at intersections, slight feathering, and high-contrast mark definition.
 
 # Drawing: Charcoal
 
-Medium: Charcoal drawing in monochrome with soft tonal gradients, smudged shading, dusty texture, rich dark values, erased highlights, and visible hand-worked marks across the paper surface.
+Medium: Charcoal drawing in monochrome with soft tonal massing, smudged gradient transitions, dusty particulate buildup, deep shadow fields, erased highlight recovery, and hand-blended value structure.
 
 # Drawing: Colored Pencil
 
-Medium: Colored pencil drawing with layered directional strokes, visible pencil texture, gradual color buildup, fine edge control, subtle paper grain, and optical color mixing through overlapping marks.
+Medium: Colored pencil drawing with directional layered strokes, visible overlap structure, gradual pigment buildup, paper grain interaction, and optical color mixing through layered marks.
 
 # Drawing: Pastel
 
-Medium: Pastel drawing with powdery pigment, soft blended transitions, rich color saturation, textured paper tooth, visible particulate buildup, and layered strokes retaining a dry tactile appearance.
+Medium: Pastel drawing with loose pigment deposition, powdery surface accumulation, soft blended transitions, visible paper tooth, and chalk-like layered texture fields.
 
 # Printmaking: Woodcut
 
-Medium: Woodcut print with bold carved shapes, high-contrast black and white forms, irregular cut marks, visible wood grain texture, simplified contours, and hand-printed surface variation.
+Medium: Woodcut print with bold carved shape separation, strong high-contrast forms, rough edge cuts, visible wood grain interference, and simplified graphic abstraction.
 
 # Printmaking: Lithograph
 
-Medium: Lithograph print with rich tonal shading, soft grain, drawn textures, subtle ink variation, smooth value transitions, and a hand-rendered graphic appearance.
+Medium: Lithograph print with continuous tonal gradients, drawn surface texture, soft shading transitions, and controlled ink variation producing smooth midtone rendering.
 
 # Printmaking: Screenprint
 
-Medium: Screenprint with flat color fields, crisp stencil edges, solid ink coverage, separated color layers, minimal texture, and a bold graphic poster-like appearance.
+Medium: Screenprint with flat color layers, sharp stencil boundaries, uniform ink fill, clean separation between shapes, and bold graphic structure.
 
 # Printmaking: Monotype
 
-Medium: Monotype print with painterly textures, uneven ink transfer, soft pressure marks, irregular edges, layered tonal variation, and a unique one-of-a-kind printed appearance.
+Medium: Monotype print with uneven ink transfer, pressure-sensitive tonal variation, soft gradient formation, irregular edges, and single-impression surface uniqueness.
 
 # Photography: Gelatin Silver
 
-Medium: Gelatin silver photograph in black and white with deep blacks, luminous highlights, continuous tonal range, fine photographic grain, and classic darkroom print character.
+Medium: Gelatin silver black-and-white photographic print with extended tonal range, smooth grayscale transitions, and fine chemical grain structure derived from exposure and development.
 
 # Photography: Chromogenic
 
-Medium: Chromogenic color photograph with natural color reproduction, smooth tonal gradients, realistic lighting, subtle film grain, and the appearance of a traditional color print.
+Medium: Chromogenic color photographic print with balanced color response, smooth tonal gradients, and fine grain structure derived from layered dye development.
 
 # Digital: Vector Graphic
 
-Medium: Vector graphic with clean geometric forms, perfectly crisp edges, uniform color fills, smooth curves, precise shapes, and resolution-independent graphic clarity.
+Medium: Vector graphic with geometric precision, flat color fills, smooth curves, sharp edges, and resolution-independent structured forms.
 
 # Mixed Media: Collage
 
-Medium: Mixed media collage constructed from torn paper shapes, bold cutouts, printed fragments, rough scanned textures, marker-style fills, and small photographic elements. Forms are assembled from visibly separate pieces with irregular edges, overlapping scraps, mismatched materials, sketchy interventions, and translucent layers. The image clearly reveals its construction through layered surfaces, exposed seams, and handmade cut-and-paste composition.
+Medium: Mixed media collage built from torn paper shapes, bold cutouts, printed fragments, scanned textures, marker fills, and photographic pieces. Forms are assembled from layered, irregular-edged elements with overlapping fragments, mismatched materials, and visible cut-and-paste composition.
