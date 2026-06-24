@@ -1,6 +1,6 @@
 # PREFIX
 
-Composition: A waist-up portrait of a 40-year-old European woman with fair skin and long black hair falling over her shoulders, wearing a plain T-shirt. She sits at a dining table, her body turned slightly to the side, drinking from a glass of beer that she tips to her lips. Her expression is calm and relaxed. Centered composition, eye-level view.
+Composition: A waist-up portrait of a 40-year-old European woman with fair skin and long black hair falling over her shoulders, wearing a plain T-shirt. She sits at a dining table, her body and face turned slightly to the left, her gaze directed to the left. She is drinking from a glass of beer that she tips to her lips. Her expression is calm and relaxed. She is centered in the frame, eye-level view.
 
 # Painting: Oil Paint
 
