@@ -1,6 +1,6 @@
 # PREFIX
 
-Composition: A waist-up portrait of a 40-year-old European woman with fair skin and long black hair falling over her shoulders, wearing a plain T-shirt. She sits at a dining table, her body and face turned slightly to the left, her gaze directed to the left. She is drinking from a glass of beer that she tips to her lips. Her expression is calm and relaxed. She is centered in the frame, eye-level view.
+Composition: A waist-up portrait of a 40-year-old European woman with fair skin and long black hair falling over her shoulders, wearing a plain T-shirt. She sits at a dining table, her body and face turned slightly to the left, her gaze directed to the left. She is taking a sip from a glass of beer, the rim resting against her lower lip as she drinks. Her expression is calm and relaxed. She is centered in the frame, eye-level view.
 
 # Painting: Oil Paint
 
@@ -48,4 +48,4 @@ Style: A silkscreen print with flat opaque color layers, sharp clean edges, slig
 
 # Printmaking: Etching
 
-Style: A traditional etching with fine hatched and cross-hatched ink lines, delicate tonal shading, dark brown ink, and a visible rectangular plate mark around the image. No color, monochrome only.
+Style: An old master copperplate etching with fine black intaglio linework, dense cross-hatched shadows, sharp etched contours, small stippled ink marks, dark ink pressure variations, and a visible rectangular plate mark around the image. Dark ink only, no color.
