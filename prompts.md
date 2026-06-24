@@ -49,4 +49,3 @@ Style: A silkscreen print with flat opaque color layers, sharp clean edges, slig
 # Printmaking: Etching
 
 Style: A traditional etching with fine hatched and cross-hatched ink lines, delicate tonal shading, dark brown ink, and a visible rectangular plate mark around the image. No color, monochrome only.
-
