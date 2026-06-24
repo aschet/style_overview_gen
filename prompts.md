@@ -4,31 +4,43 @@ Composition: A waist-up portrait of a 40-year-old European woman with fair skin 
 
 # Painting: Oil Paint
 
-Style: A traditional oil painting with thick impasto brushstrokes, visible ridges of paint, rich blended colors, and layered glazes.
+Style: A hand-painted traditional oil painting on canvas, with thick impasto brushstrokes, visible ridges of paint, rich blended colors, and layered glazes.
+
+# Painting: Acrylic Paint
+
+Style: A hand-painted modern acrylic painting on canvas, with smooth even brushstrokes, deep glowing colors in a warm natural palette, flat opaque coverage, and a soft semi-gloss finish.
 
 # Painting: Watercolor
 
-Style: A hand-painted watercolor portrait illustration on rough watercolor paper, with translucent luminous washes, visible brushstrokes, soft bleeding edges between colors, pooled pigment at the edges of shapes, and a loose painterly style. Not photorealistic.
+Style: A hand-painted watercolor on rough watercolor paper, with translucent luminous washes, visible brushstrokes, soft bleeding edges between colors, pooled pigment at the edges of shapes, and a loose painterly style.
 
 # Painting: Gouache
 
-Style: A gouache painting with flat opaque colors, a chalky matte finish, a soft powdery surface, and crisp hand-painted shapes with visible brushstrokes.
+Style: A hand-painted gouache painting on heavy paper, with flat opaque colors, a chalky matte finish, visible brushstrokes, and crisp painted shapes.
 
 # Drawing: Ink
 
-Style: A monochrome black ink brush drawing on white paper, with bold black strokes of varying thickness, strong high-contrast shapes, expressive linework, and soft feathered edges where ink meets paper. No color, black ink only.
+Style: A hand-drawn monochrome black ink brush drawing, with bold black strokes of varying thickness, strong high-contrast shapes, expressive linework, and soft feathered edges where ink meets paper. No color, black ink only.
 
 # Drawing: Charcoal
 
-Style: A hand-drawn monochrome charcoal portrait drawing on white paper, with deep velvety blacks, smoky smudged gradients, soft tonal blending, bright erased highlights, and visible paper texture. No color, grayscale only.
+Style: A hand-drawn monochrome charcoal drawing on rough paper, with bold visible charcoal strokes, deep velvety blacks, smudged gradients from smearing charcoal, rough textured shading, scratchy erased highlights, and visible paper grain. No color, grayscale only.
+
+# Drawing: Colored Pencil
+
+Style: A loose colored pencil drawing, with visible directional pencil hatching across the image, layered cross-hatched color buildup, rough paper grain showing through the color, and a hand-drawn sketchy quality.
 
 # Drawing: Pastel
 
-Style: A soft pastel drawing with saturated powdery colors, velvety blended areas, visible chalky strokes, and a slightly dusty surface.
+Style: A hand-drawn soft pastel drawing on textured paper, with saturated powdery colors, velvety blended areas, visible chalky strokes, and a slightly dusty surface.
 
 # Printmaking: Woodcut
 
-Style: A high-contrast black-and-white woodcut relief print in the bold graphic style of early 20th-century expressionist prints, with thick black ink shapes, chunky carved outlines, stark white negative space, and parallel chisel-cut hatching lines. No color, black ink on white paper only
+Style: A woodcut relief print with flat solid black ink shapes, chunky carved outlines, blocky negative space, thick parallel gouge marks, and visibly uneven ink coverage. No grayscale tones, flat black ink only. No color.
+
+# Printmaking: Lithograph
+
+Style: A traditional stone lithograph print on cream-toned paper, with greasy ink-based tonal areas printed from a stone matrix, rich black printer's ink, visible ink saturation in the darker areas, soft tonal transitions made of fine ink stippling, and the printed impression of a flat printing stone.
 
 # Printmaking: Screenprint
 
@@ -36,16 +48,5 @@ Style: A silkscreen print with flat opaque color layers, sharp clean edges, slig
 
 # Printmaking: Etching
 
-Style: A traditional etching print on cream paper, with fine hatched and cross-hatched ink lines, delicate tonal shading, a visible rectangular plate mark around the image, and dark brown or black ink. No color, monochrome only.
+Style: A traditional etching with fine hatched and cross-hatched ink lines, delicate tonal shading, dark brown ink, and a visible rectangular plate mark around the image. No color, monochrome only.
 
-# Photography: Gelatin Silver
-
-Style: A black-and-white gelatin silver portrait photograph with rich deep blacks, luminous highlights, smooth continuous gray tones, soft window light, and fine visible silver grain. No color, grayscale only.
-
-# Photography: Chromogenic
-
-Style: An analog 35mm color film portrait shot on Kodak Portra negative film, with muted desaturated natural tones, soft window light, gentle shadows, prominent visible film grain, slight softness in fine detail and gentle lens character.
-
-# Mixed Media: Collage
-
-Style: A layered mixed media collage with the figure assembled from torn paper fragments, glossy magazine clippings, halftone newsprint pieces, and transparent film overlays, with paint splatters, ink stamps, and tape strips crossing the composition and small shadows along the torn edges.
