@@ -16,23 +16,23 @@ Style: A hand-painted watercolor on rough watercolor paper, with translucent lum
 
 # Painting: Gouache
 
-Style: A hand-painted gouache painting on heavy paper, with flat opaque colors, a chalky matte finish, visible brushstrokes, and crisp painted shapes.
+Style: A hand-painted gouache painting with flat opaque colors, a chalky matte finish, visible brushstrokes, and crisp painted shapes.
 
 # Drawing: Ink
 
-Style: A hand-drawn monochrome black ink brush drawing, with bold black strokes of varying thickness, strong high-contrast shapes, expressive linework, and soft feathered edges where ink meets paper. No color, black ink only.
+Style: A hand-drawn monochrome black ink brush drawing, with bold black strokes of varying thickness, strong high-contrast shapes, expressive linework, and soft feathered ink edges. No color, black ink only.
 
 # Drawing: Charcoal
 
-Style: A hand-drawn monochrome charcoal drawing on rough paper, with bold visible charcoal strokes, deep velvety blacks, smudged gradients from smearing charcoal, rough textured shading, scratchy erased highlights, and visible paper grain. No color, grayscale only.
+Style: A loose hand-drawn monochrome charcoal sketch, with bold visible charcoal strokes, deep velvety blacks, smudged gradients from smearing charcoal, rough textured shading, scratchy erased highlights, and visible charcoal grain. No color, grayscale only.
 
 # Drawing: Colored Pencil
 
-Style: A loose colored pencil drawing, with visible directional pencil hatching across the image, layered cross-hatched color buildup, rough paper grain showing through the color, and a hand-drawn sketchy quality.
+Style: A loose colored pencil drawing in full color, with vivid layered colored pencil strokes, directional hatching, cross-hatched color buildup, visible pencil grain, and a hand-drawn sketchy quality.
 
 # Drawing: Pastel
 
-Style: A hand-drawn soft pastel drawing on textured paper, with saturated powdery colors, velvety blended areas, visible chalky strokes, and a slightly dusty surface.
+Style: A hand-drawn soft pastel drawing, with broad chalky pastel strokes, layered powdery pigment buildup, smudged transitions where strokes overlap, visible pastel dust, saturated matte colors with no sheen, and visible pastel grain.
 
 # Printmaking: Woodcut
 
