@@ -1011,7 +1011,7 @@
             },
             "widgets_values": [
               770044821593082,
-              "randomize",
+              "fixed",
               25,
               4,
               "res_multistep",

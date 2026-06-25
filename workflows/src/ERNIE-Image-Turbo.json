@@ -704,7 +704,7 @@
             },
             "widgets_values": [
               423299999918804,
-              "randomize",
+              "fixed",
               8,
               1,
               "euler",
@@ -1081,7 +1081,7 @@
             ],
             "size": [
               400,
-              532
+              412
             ],
             "flags": {},
             "order": 10,

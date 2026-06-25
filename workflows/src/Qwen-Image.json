@@ -1087,7 +1087,7 @@
             },
             "widgets_values": [
               50347169638278,
-              "randomize",
+              "fixed",
               8,
               1,
               "euler",
