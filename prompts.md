@@ -20,7 +20,7 @@ Style: A hand-painted traditional gouache painting, opaque color in a warm natur
 
 # Drawing: Ink
 
-Style: A hand-drawn traditional ink drawing on off-white paper, bold black brushstrokes of varying thickness, dry-brush split-bristle marks at stroke ends, high-contrast black-on-white shapes with coarse broken fills showing the surface through the ink, scratchy uneven ink coverage, occasional ink splatter and bleed, black ink only.
+Style: A hand-drawn traditional monochrome black ink drawing on off-white paper, black brushstrokes, dry-brush split-bristle marks at stroke ends, high-contrast black-on-white shapes with broken fills showing the surface through the ink, varied marks and white space.
 
 # Drawing: Charcoal
 
@@ -28,11 +28,11 @@ Style: A hand-drawn traditional charcoal drawing on off-white paper, scratchy ch
 
 # Drawing: Colored Pencil
 
-Style: A hand-drawn traditional colored pencil drawing on off-white paper, visible directional hatching and cross-hatching strokes in layered color, waxy pigment built up across the image, slightly uneven coverage, unfinished sketch edges, varied marks.
+Style: A hand-drawn traditional colored pencil drawing on off-white paper, sharp pencil strokes with visible directional hatching and cross-hatching in layered color, thin layered waxy pigment, individual pencil strokes visible throughout.
 
 # Drawing: Pastel
 
-Style: A hand-drawn traditional soft pastel drawing on off-white paper, wide soft chalky pastel marks blended across the surface, powdery pigment built up across the image, smudged fingertip blending where marks overlap, velvety chalky finish with no sheen, even coverage, varied tones across.
+Style: A hand-drawn traditional soft pastel drawing on off-white paper, wide soft chalky pastel marks blended together, powdery pigment built up across the image, smudged fingertip blending where marks overlap, velvety chalky finish with no sheen, even coverage.
 
 # Printmaking: Woodcut
 
@@ -40,12 +40,12 @@ Style: A hand-pulled traditional woodcut print on cream paper, flat solid black 
 
 # Printmaking: Lithograph
 
-Style: A hand-pulled traditional lithograph print on cream laid paper, greasy ink with coarse crayon-grain texture in two or three flat tints, broad grainy tonal areas, soft drawn marks, slight ink halo at edges, flat printed impression.
+Style: A hand-pulled traditional lithograph print rendered in a single uniform sepia tint, greasy ink with coarse crayon-grain texture, broad grainy tonal areas, no fine linework.
 
 # Printmaking: Screenprint
 
-Style: A hand-pulled traditional silkscreen print on matte paper, three or four flat opaque ink layers with no blending, sharp clean stencil edges, small registration offsets between color layers, slight ink texture from the mesh, bold poster-graphic shapes.
+Style: A hand-pulled traditional silkscreen print on matte paper, three or four flat opaque ink layers with no blending, bright saturated flat color areas distributed across the composition, sharp clean stencil edges, small registration offsets between color layers, slight ink texture from the mesh, bold poster-graphic shapes, vintage poster look.
 
 # Printmaking: Etching
 
-Style: A hand-pulled traditional etching on warm-toned paper, fine black intaglio linework throughout, dense parallel hatching and cross-hatching scoped to shadow areas only, sharp bitten contours, subtle plate-tone in lighter areas, an embossed plate mark at the edges, black ink only.
+Style: A hand-pulled traditional monochrome etching on warm-toned paper, fine black intaglio linework throughout, dense parallel hatching and cross-hatching scoped to shadow areas only, sharp bitten contours, subtle plate-tone in lighter areas, black ink only.
