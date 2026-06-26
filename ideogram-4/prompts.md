@@ -1,16 +1,16 @@
 # Painting: Oil Paint
 
 {
-  "high_level_description": "A traditional oil painting of a 40-year-old European woman drinking beer at a plain table with dramatic chiaroscuro lighting.",
+  "high_level_description": "A portrait of a 40-year-old European woman drinking beer at a plain table.",
   "style_description": {
-    "aesthetics": "classical portraiture, rich fine-art textures, moody, atmospheric",
+    "aesthetics": "classical portraiture art, fine-art textures, moody atmospheric depth",
     "lighting": "dramatic chiaroscuro lighting with deep heavy shadows and a sharp directional highlight",
     "medium": "painting",
-    "art_style": "traditional oil painting on textured canvas with thick visible palette knife marks and heavy impasto highlights",
-    "color_palette": ["#1A120B", "#3C2A21", "#D5CEA3", "#E5BA73"]
+    "art_style": "oil painting on textured canvas with thick visible palette knife marks and heavy impasto highlights",
+    "color_palette": []
   },
   "compositional_deconstruction": {
-    "background": "Deep dark shadows create a dramatic chiaroscuro ambient illumination across a softly blended, warm natural color palette backdrop.",
+    "background": "Deep dark shadows create a dramatic ambient illumination across a softly blended, warm dark backdrop.",
     "elements": [
       {
         "type": "obj",
@@ -29,16 +29,16 @@
 # Painting: Acrylic Paint
 
 {
-  "high_level_description": "A traditional acrylic painting of a 40-year-old European woman drinking beer at a plain table featuring clean matte colors.",
+  "high_level_description": "A portrait of a 40-year-old European woman drinking beer at a plain table.",
   "style_description": {
-    "aesthetics": "contemporary, clean illustration style, highly saturated, smooth",
+    "aesthetics": "contemporary clean illustration, highly saturated color fields",
     "lighting": "soft evenly diffused ambient studio lighting with subtle gentle shadows",
     "medium": "painting",
-    "art_style": "traditional acrylic painting featuring flat matte body color coverage and clean visible brushstrokes",
-    "color_palette": ["#2C3E50", "#34495E", "#BDC3C7", "#95A5A6"]
+    "art_style": "acrylic painting featuring opaque even color coverage, flat velvety surface finish, and clean crisp brushstrokes",
+    "color_palette": []
   },
   "compositional_deconstruction": {
-    "background": "Smooth even coverage of flat matte body color within a warm natural palette forms a plain, softly lit ambient background shell.",
+    "background": "Smooth even coverage of opaque body color forms a plain, softly lit flat ambient backdrop.",
     "elements": [
       {
         "type": "obj",
@@ -57,16 +57,16 @@
 # Painting: Watercolor
 
 {
-  "high_level_description": "A loose traditional watercolor painting of a 40-year-old European woman drinking beer at a plain table.",
+  "high_level_description": "A portrait of a 40-year-old European woman drinking beer at a plain table.",
   "style_description": {
-    "aesthetics": "ethereal, translucent, fluid washes, artistic, organic",
-    "lighting": "bright natural daylight filtering softly through layered translucent paint washes",
+    "aesthetics": "ethereal translucent fluid washes, organic fine art textures",
+    "lighting": "bright natural daylight filtering softly through layered transparent paint values",
     "medium": "painting",
-    "art_style": "loose traditional watercolor painting on rough cold-pressed paper with visible wet-on-wet paint granulation and delicate color bleeding edges",
-    "color_palette": ["#D4A373", "#E3D5CA", "#F5EBE0", "#D6CCC2", "#F5F5F5"]
+    "art_style": "watercolor painting on rough cold-pressed paper with visible wet-on-wet paint granulation and delicate color bleeding edges",
+    "color_palette": []
   },
   "compositional_deconstruction": {
-    "background": "Rough cold-pressed paper surface with soft transparent washes, visible granulation settling into the texture, gentle bleed edges, and soft unfinished borders.",
+    "background": "Rough cold-pressed paper surface with soft transparent washes, visible granulation settling into the texture, and soft ambient paper-edge feathering.",
     "elements": [
       {
         "type": "obj",
@@ -85,16 +85,16 @@
 # Painting: Gouache
 
 {
-  "high_level_description": "A traditional gouache painting of a 40-year-old European woman drinking beer at a plain table with a chalky matte finish.",
+  "high_level_description": "A portrait of a 40-year-old European woman drinking beer at a plain table.",
   "style_description": {
-    "aesthetics": "vintage editorial illustration, poster style, richly opaque",
-    "lighting": "even graphic studio illumination with soft powdery falloff and no harsh specular reflections",
+    "aesthetics": "vintage editorial illustration, poster style, richly opaque design",
+    "lighting": "even studio illumination with soft value falloff and no harsh specular reflections",
     "medium": "painting",
-    "art_style": "traditional gouache painting displaying opaque pigment layers, a smooth chalky matte finish, and soft powdery borders between colors",
-    "color_palette": ["#4A3B32", "#8B7355", "#C6A052", "#EADBC8"]
+    "art_style": "gouache painting displaying heavy pigment layers, a velvety matte finish, and clean defined borders between color shapes",
+    "color_palette": []
   },
   "compositional_deconstruction": {
-    "background": "Opaque background tones in a warm natural palette with full coverage, featuring soft powdery edges between colors and a smooth chalky matte finish.",
+    "background": "Flatly applied opaque backdrop tones with full color coverage and an unreflective finish.",
     "elements": [
       {
         "type": "obj",
@@ -113,16 +113,16 @@
 # Drawing: Ink
 
 {
-  "high_level_description": "A traditional monochrome black ink drawing of a 40-year-old European woman drinking beer at a plain table.",
+  "high_level_description": "A portrait of a 40-year-old European woman drinking beer at a plain table.",
   "style_description": {
-    "aesthetics": "high-contrast, crisp line-art, stark graphic style, minimalist monochrome",
-    "lighting": "stark high-contrast lighting with deep black solid ink shapes and bright uninked paper highlights",
+    "aesthetics": "high-contrast crisp line-art, stark graphic style, minimalist monochrome",
+    "lighting": "stark high-contrast lighting with solid ink shapes and bright uninked paper highlights",
     "medium": "illustration",
-    "art_style": "traditional monochrome black ink drawing on off-white paper featuring bold calligraphic brushstrokes and fine precision cross-hatching",
-    "color_palette": ["#000000", "#FFFFFF", "#F4F4F0"]
+    "art_style": "monochrome black ink drawing featuring bold calligraphic brushstrokes and fine precision cross-hatching",
+    "color_palette": []
   },
   "compositional_deconstruction": {
-    "background": "Plain off-white paper surface with high-contrast black-on-white shapes, clean white space, and broken ink fills showing the paper texture through.",
+    "background": "A pristine off-white paper texture providing a stark, clean negative space background.",
     "elements": [
       {
         "type": "obj",
@@ -141,16 +141,16 @@
 # Drawing: Charcoal
 
 {
-  "high_level_description": "A traditional grayscale charcoal drawing of a 40-year-old European woman drinking beer at a plain table.",
+  "high_level_description": "A portrait of a 40-year-old European woman drinking beer at a plain table.",
   "style_description": {
-    "aesthetics": "gritty, textured, expressive portraiture, soft smoky gradients",
-    "lighting": "dramatic low-key spotlighting with velvety black shadow drop-offs and smudged transitional gradients",
+    "aesthetics": "fine-art academic drawing, high-contrast monochrome realism, tactile medium textures",
+    "lighting": "dramatic directional key light with deep rich velvety black shadows and bright paper-exposed highlights",
     "medium": "illustration",
-    "art_style": "traditional grayscale charcoal drawing on heavy textured paper with coarse open hatching and scratchy kneaded-eraser highlights",
-    "color_palette": ["#111111", "#444444", "#888888", "#DDDDDD"]
+    "art_style": "charcoal drawing on textured paper, combining soft smudged willow charcoal tones with sharp, intense compressed charcoal linework and visible paper tooth",
+    "color_palette": []
   },
   "compositional_deconstruction": {
-    "background": "Off-white paper background filled with coarse open hatching, smudged fingerprint gradients, gestural unfinished lines, scratchy kneaded-eraser highlights, and visible charcoal grain throughout.",
+    "background": "A clean, unrendered off-white paper background showing a subtle tactile tooth texture with gentle charcoal dust falloff around the central composition.",
     "elements": [
       {
         "type": "obj",
@@ -169,16 +169,16 @@
 # Drawing: Colored Pencil
 
 {
-  "high_level_description": "A traditional colored pencil drawing of a 40-year-old European woman drinking beer at a plain table using fine layered lines.",
+  "high_level_description": "A portrait of a 40-year-old European woman drinking beer at a plain table.",
   "style_description": {
-    "aesthetics": "delicate, highly detailed, layered texture, subtle waxy sheen",
-    "lighting": "bright diffuse indoor lighting accentuating form definitions and fine edge lines",
+    "aesthetics": "highly detailed fine-art illustration, vibrant realism, delicate multi-colored linear layers",
+    "lighting": "bright, even studio lighting that highlights diverse color pencil pigment overlays",
     "medium": "illustration",
-    "art_style": "traditional colored pencil drawing on off-white paper built up with thin layered waxy pigment strokes and precise directional hatching",
-    "color_palette": ["#3E2723", "#4E342E", "#D7CCC8", "#CFD8DC"]
+    "art_style": "colored pencil drawing on fine-toothed paper, built up with meticulous layered cross-hatching, sharp pencil points, and dynamic blend of distinct color pigments",
+    "color_palette": []
   },
   "compositional_deconstruction": {
-    "background": "Plain off-white paper backdrop showing thin layered waxy pigment with subtle directional hatching and cross-hatching textures distributed across the surface.",
+    "background": "A clean, unrendered drawing paper backdrop with a fine, tactile paper tooth texture and zero stray markings.",
     "elements": [
       {
         "type": "obj",
@@ -197,16 +197,16 @@
 # Drawing: Pastel
 
 {
-  "high_level_description": "A traditional soft pastel drawing of a 40-year-old European woman drinking beer at a plain table with chalky marks.",
+  "high_level_description": "A portrait of a 40-year-old European woman drinking beer at a plain table.",
   "style_description": {
-    "aesthetics": "soft focus, rich pigment saturation, blended edges, smooth forms",
-    "lighting": "warm diffuse ambient glow with highly blended shadow transitions and zero hard specular lines",
+    "aesthetics": "fine-art portraiture, rich vibrant pigment saturation, tactile dry-medium texture",
+    "lighting": "warm diffuse ambient glow with feathered value transitions and an entirely non-reflective surface",
     "medium": "illustration",
-    "art_style": "traditional soft pastel drawing on dark paper substrate with wide soft chalky marks smudged cleanly by fingertips for a velvety finish",
-    "color_palette": ["#212121", "#4E342E", "#A1887F", "#FFE0B2"]
+    "art_style": "soft chalk pastel drawing on dark textured paper, featuring velvety matte pure pigment layers, blended grain transitions, and gritty chalk edges",
+    "color_palette": []
   },
   "compositional_deconstruction": {
-    "background": "Off-white paper backdrop covered with wide soft chalky pastel marks blended together by smudged fingertips, presenting a velvety chalky finish with no sheen.",
+    "background": "A uniform dark toned pastel card substrate with a heavy abrasive texture, displaying a subtle, soft ambient falloff of fine chalk dust around the subject.",
     "elements": [
       {
         "type": "obj",
@@ -225,16 +225,16 @@
 # Printmaking: Woodcut
 
 {
-  "high_level_description": "A traditional woodcut print of a 40-year-old European woman drinking beer at a plain table using bold black relief ink.",
+  "high_level_description": "A portrait of a 40-year-old European woman drinking beer at a plain table.",
   "style_description": {
-    "aesthetics": "rustic style, primitive layout, blocky forms, high-contrast graphic arts technique",
+    "aesthetics": "rustic printmaking style, bold geometric relief structure, blocky forms, high-contrast graphic arts technique",
     "lighting": "stark relief illumination dictated completely by heavy positive and negative hand-carved spaces",
     "medium": "graphic_design",
-    "art_style": "traditional woodcut block print on handmade cream paper using flat solid black ink shapes and parallel hand-carved chisel grooves",
-    "color_palette": ["#050505", "#FDFBF7"]
+    "art_style": "woodcut block print on handmade paper using flat solid ink shapes and parallel hand-carved chisel grooves",
+    "color_palette": []
   },
   "compositional_deconstruction": {
-    "background": "Two-tone black and cream background composed of blocky high-contrast negative space, parallel chisel grooves, visible gouge cuts, and small uninked voids.",
+    "background": "Two-tone high-contrast negative space composed of parallel chisel grooves, visible block grain lines, and small uninked voids.",
     "elements": [
       {
         "type": "obj",
@@ -253,16 +253,16 @@
 # Printmaking: Lithograph
 
 {
-  "high_level_description": "A traditional lithograph print in a uniform sepia tint depicting a 40-year-old European woman drinking beer at a plain table.",
+  "high_level_description": "A portrait of a 40-year-old European woman drinking beer at a plain table.",
   "style_description": {
-    "aesthetics": "vintage fine-art print look, fine-grained illustration texture, academic sketch appearance",
+    "aesthetics": "vintage fine-art print look, fine-grained print texture, academic sketch appearance",
     "lighting": "soft print tonal gradations rendered accurately through varying densities of grease crayon grain",
     "medium": "graphic_design",
-    "art_style": "traditional stone lithograph print rendered in a uniform sepia tint featuring broad grainy tonal surfaces from greasy tusche crayons",
-    "color_palette": ["#3E2723", "#D7CCC8", "#F5F5F0"]
+    "art_style": "stone lithograph print rendered with monochrome ink tones featuring broad grainy tonal surfaces from greasy tusche crayons",
+    "color_palette": []
   },
   "compositional_deconstruction": {
-    "background": "Plain background environment rendered entirely in a single uniform sepia tint, characterized by broad grainy tonal areas of greasy ink texture.",
+    "background": "Plain background environment characterized entirely by broad grainy tonal areas of greasy printmaking ink texture on heavy paper.",
     "elements": [
       {
         "type": "obj",
@@ -281,16 +281,16 @@
 # Printmaking: Screenprint
 
 {
-  "high_level_description": "A traditional silkscreen print of a 40-year-old European woman drinking beer at a plain table with a bold poster look.",
+  "high_level_description": "A portrait of a 40-year-old European woman drinking beer at a plain table.",
   "style_description": {
-    "aesthetics": "pop art style poster layout, bold graphic stencil composition, flat screen ink layers",
+    "aesthetics": "modern screenprint poster layout, bold graphic stencil composition, flat screen ink layers",
     "lighting": "flat commercial print illumination with crisp hard stencil edges and zero gradients or shading",
     "medium": "graphic_design",
-    "art_style": "traditional silkscreen print on heavy matte stock paper containing four flat opaque hand-pulled ink layers with subtle mesh textures",
-    "color_palette": ["#1A252C", "#E0A96D", "#DCC7AA", "#201E20"]
+    "art_style": "silkscreen print on heavy matte stock paper containing flat opaque hand-pulled ink layers with subtle mesh textures",
+    "color_palette": []
   },
   "compositional_deconstruction": {
-    "background": "Matte background shell containing three or four flat opaque ink layers with bright saturated color, sharp clean stencil edges, and slight mesh texture.",
+    "background": "Matte background shell containing flat opaque ink layers with sharp clean stencil edges and slight screen mesh texture.",
     "elements": [
       {
         "type": "obj",
@@ -309,16 +309,16 @@
 # Printmaking: Etching
 
 {
-  "high_level_description": "A traditional monochrome etching of a 40-year-old European woman drinking beer at a plain table featuring fine black intaglio lines.",
+  "high_level_description": "A portrait of a 40-year-old European woman drinking beer at a plain table.",
   "style_description": {
     "aesthetics": "intricate fine-line plate print, traditional academic realism, delicate needle linework",
     "lighting": "subtle intaglio shading shifts created exclusively by the tight density of fine cross-hatched metal lines",
     "medium": "graphic_design",
-    "art_style": "traditional monochrome acid-etched plate print on warm-toned paper with fine ink lines and wiped plate-tone residues",
-    "color_palette": ["#0A0A0A", "#EFEBE9", "#D7CCC8"]
+    "art_style": "monochrome acid-etched plate print on warm-toned paper with fine intaglio ink lines and wiped plate-tone residues",
+    "color_palette": []
   },
   "compositional_deconstruction": {
-    "background": "Warm-toned paper background with subtle plate-tone in lighter regions and dense parallel hatching and cross-hatching constrained to deep shadow areas.",
+    "background": "Warm-toned paper background displaying subtle plate-tone ink residue with no intrusive structural hatching lines in the negative space.",
     "elements": [
       {
         "type": "obj",
@@ -333,4 +333,3 @@
     ]
   }
 }
-
