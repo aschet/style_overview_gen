@@ -1823,7 +1823,7 @@
             },
             "widgets_values": [
               "{\n  \"Quality\": {\n    \"num_steps\": 48,\n    \"mu\": 0.0,\n    \"std\": 1.5,\n    \"preset_id\": \"V4_QUALITY_48\"\n  },\n  \"Default\": {\n    \"num_steps\": 20,\n    \"mu\": 0.0,\n    \"std\": 1.75,\n    \"preset_id\": \"V4_DEFAULT_20\"\n  },\n  \"Turbo\": {\n    \"num_steps\": 12,\n    \"mu\": 0.5,\n    \"std\": 1.75,\n    \"preset_id\": \"V4_TURBO_12\"\n  }\n}",
-              "Quality"
+              "Default"
             ]
           },
           {
@@ -2222,8 +2222,8 @@
               "ver": "0.23.0"
             },
             "widgets_values": [
-              "Quality",
-              0,
+              "Default",
+              1,
               "Quality",
               "Default",
               "Turbo",
@@ -3403,10 +3403,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.5432539496359278,
+      "scale": 0.7953781076619622,
       "offset": [
-        -4705.627274549644,
-        -64.93841170029417
+        -4778.829943115867,
+        -343.93326692996715
       ]
     },
     "frontendVersion": "1.45.19",

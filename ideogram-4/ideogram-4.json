@@ -528,8 +528,8 @@
   },
   "98:156": {
     "inputs": {
-      "choice": "Quality",
-      "index": 0,
+      "choice": "Default",
+      "index": 1,
       "option1": "Quality",
       "option2": "Default",
       "option3": "Turbo",
