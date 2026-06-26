@@ -4,7 +4,7 @@ Composition: A waist-up portrait of a 40-year-old European woman with fair skin 
 
 # Painting: Oil Paint
 
-Style: A hand-painted traditional oil painting, soft visible brushstrokes with occasional impasto highlights, warm natural color palette, softly blended tones, thin layered glazes, subtle varnish sheen.
+Style: A hand-painted traditional oil painting with dramatic chiaroscuro lighting, visible brushstrokes with prominent impasto highlights catching the light, raised paint ridges in the lit areas, deep dark shadows, warm natural color palette, softly blended tones.
 
 # Painting: Acrylic Paint
 
