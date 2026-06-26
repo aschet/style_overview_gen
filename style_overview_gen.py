@@ -18,7 +18,7 @@ from PIL import Image, ImageDraw, ImageFont, PngImagePlugin
 
 SERVER = "127.0.0.1:8188"
 CLIENT_ID = str(uuid.uuid4())
-FIXED_SEED = 885894517601261
+FIXED_SEED = 42
 PROMPT_TITLE = "Prompt"
 SEED_TITLE = "Seed"
 DEFAULT_TIMEOUT = 600.0
