@@ -1,51 +1,38 @@
 # POSTFIX
-
-Composition: A waist-up portrait of a 40-year-old European woman with fair skin and long dark hair falling over her shoulders, wearing a plain dark T-shirt with a visible round neckline. She sits at a plain table, her body and face turned slightly to the left, her gaze directed to the left. She holds a glass of beer at her mouth with one hand and drinks from it, the rim of the glass pressed against her lower lip. Her free arm rests flat on the table in front of her. Her expression is calm and relaxed. She is centered in the frame, eye-level view.
+Composition: 40-year-old European woman, seated at table, upper body framing, mature appearance, long hair over shoulders, dark shirt, torso and head leaning slightly left, neutral expression, gaze left, glass of cranberry juice at lips, mid-sip, free hand resting flat on table in foreground.
 
 # Painting: Oil Paint
-
-Style: A hand-painted traditional oil painting with dramatic chiaroscuro lighting, visible brushstrokes with prominent impasto highlights catching the light, raised paint ridges in the lit areas, deep dark shadows, warm natural color palette, softly blended tones.
+Style: Physical oil painting, edge-to-edge composition, dramatic chiaroscuro lighting, impasto, raised ridges, deep shadows, soft blending, warm palette.
 
 # Painting: Acrylic Paint
-
-Style: A hand-painted traditional acrylic painting, soft visible brushstrokes, flat matte body color in a warm natural palette, smooth even coverage.
+Style: Physical acrylic painting, edge-to-edge composition, matte finish, opaque coverage, soft brushwork, layered color fields, controlled texture, soft lighting, moderate contrast, warm palette.
 
 # Painting: Watercolor
-
-Style: A hand-painted loose traditional watercolor painting on rough cold-pressed paper, soft transparent washes with the white surface showing through, gentle bleed edges where wet pigment pooled, visible granulation settling into the rough texture, dry-brush scuffs at the edges, soft unfinished borders.
+Style: Physical watercolor painting, edge-to-edge composition, transparent washes, soft pigment bleed, granulation, dry-brush accents, soft atmospheric lighting.
 
 # Painting: Gouache
-
-Style: A hand-painted traditional gouache painting, opaque color in a warm natural palette with full coverage, soft visible brushstrokes with gentle pigment drag, smooth chalky matte finish, soft powdery edges between colors, varied painted shapes and tones.
+Style: Physical gouache painting, edge-to-edge composition, matte opaque pigment, layered coverage, soft brushwork, chalky texture, warm palette.
 
 # Drawing: Ink
-
-Style: A hand-drawn traditional monochrome black ink drawing on off-white paper, black brushstrokes, dry-brush split-bristle marks at stroke ends, high-contrast black-on-white shapes with broken fills showing the surface through the ink, varied marks and white space.
+Style: Physical ink drawing, edge-to-edge composition, monochrome ink, high-contrast linework, varied line weight, dry-brush marks, broken fills, strong negative space, graphic contrast.
 
 # Drawing: Charcoal
-
-Style: A hand-drawn traditional charcoal drawing on off-white paper, scratchy charcoal strokes, velvety blacks broken up by visible paper texture showing through, coarse open hatching with visible gaps inside shaded areas, smudged fingerprint gradients, gestural unfinished lines, scratchy kneaded-eraser highlights, visible charcoal grain throughout, varied marks and white space, grayscale only.
+Style: Physical charcoal drawing, edge-to-edge composition, velvety pigment, grain texture, gestural strokes, open hatching, smudged tonal gradients, eraser highlights, atmospheric contrast.
 
 # Drawing: Colored Pencil
-
-Style: A hand-drawn traditional colored pencil drawing on off-white paper, sharp pencil strokes with visible directional hatching and cross-hatching in layered color, thin layered waxy pigment, individual pencil strokes visible throughout.
+Style: Physical colored pencil drawing, edge-to-edge composition, wax pigment, directional hatching, cross-hatching, fine stroke texture, layered color, controlled contrast.
 
 # Drawing: Pastel
-
-Style: A hand-drawn traditional soft pastel drawing on off-white paper, wide soft chalky pastel marks blended together, powdery pigment built up across the image, smudged fingertip blending where marks overlap, velvety chalky finish with no sheen, even coverage.
+Style: Physical pastel drawing, edge-to-edge composition, powder pigment, soft strokes, blended tones, smudging, matte texture, soft tonal transitions.
 
 # Printmaking: Woodcut
-
-Style: A hand-pulled traditional woodcut print on cream paper, flat solid black ink shapes only, hand-carved outlines with visible gouge cuts and chip marks, blocky high-contrast negative space, parallel chisel grooves in the black areas, uneven hand-pressed ink coverage with small voids, two-tone black and cream.
+Style: Physical woodcut print, edge-to-edge composition, high-contrast ink, carved blocks, gouge marks, chisel grooves, uneven ink, bold shapes, strong graphic contrast.
 
 # Printmaking: Lithograph
-
-Style: A hand-pulled traditional lithograph print rendered in a single uniform sepia tint, greasy ink with coarse crayon-grain texture, broad grainy tonal areas, no fine linework.
+Style: Physical lithograph print, edge-to-edge composition, monochrome ink, stone grain texture, tonal fields, crayon texture, continuous shading, soft tonal depth.
 
 # Printmaking: Screenprint
-
-Style: A hand-pulled traditional silkscreen print on matte paper, three or four flat opaque ink layers with no blending, bright saturated flat color areas distributed across the composition, sharp clean stencil edges, small registration offsets between color layers, slight ink texture from the mesh, bold poster-graphic shapes, vintage poster look.
+Style: Physical screenprint, edge-to-edge composition, flat opaque inks, saturated colors, stencil edges, registration shifts, mesh texture, bold graphic composition, high contrast.
 
 # Printmaking: Etching
-
-Style: A hand-pulled traditional monochrome etching on warm-toned paper, fine black intaglio linework throughout, dense parallel hatching and cross-hatching scoped to shadow areas only, sharp bitten contours, subtle plate-tone in lighter areas, black ink only.
+Style: Physical etching print, edge-to-edge composition, monochrome ink, fine linework, dense hatching, engraved contours, plate tone, high detail contrast.
